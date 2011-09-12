@@ -1,0 +1,139 @@
+.container {
+  width: 100%;
+  max-width: 120em;  /* 80x16px=1920px */
+  margin: 0 auto;
+}
+
+body { font-size:100%; line-height:1.25; }
+h1, h2, h3 { margin-top:0; margin-bottom:0; }
+h1 { font-size:6.84615em; padding:1.29217em 0; }
+h2 { font-size:5.53846em; padding:1.29342em 0; }
+h3 { font-size:4.23077em; padding:1.29532em 0; }
+
+h4, h5, h6 { margin-top:0; margin-bottom:0; }
+h4 { font-size:3.42308em; padding:1.38338em 0; }
+h5 { font-size:2.61538em; padding:1.28666em 0; }
+h6 { font-size:2.11538em; padding:1.44305em 0; }
+
+h4, h6 { padding: .31em;}
+
+body {
+  font-family: 'Old Standard TT', arial, serif;
+}
+h1 {
+  font-family: 'Lobster', arial, serif;
+}
+
+
+a, a:visited {
+  color: #000;
+}
+a.home, a.home:visited {
+  color: #1817DE;
+  text-decoration: underline !important;
+}
+#menu a, #menu a:visited, #pages a, #pages a:visited, #collections a, #collections a:visited {
+  text-decoration: none;
+}
+#menu a:active, #menu a:hover {
+  text-decoration: underline;
+}
+.bestseller {
+  background: #0593F2 !important;
+}
+.latest {
+  background: #ABF205 !important;
+}
+.sale {
+  background: #C60017 !important;
+}
+.featured {
+  background: #F9DD07 !important;
+}
+.bestseller-triangle {
+  border-color: transparent transparent #0593F2 !important;
+}
+.latest-triangle {
+  border-color: transparent transparent #ABF205 !important;
+}
+.sale-triangle {
+  border-color: transparent transparent #C60017 !important;
+}
+.featured-triangle {
+  border-color: transparent transparent #F9DD07 !important;
+}
+
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+body {
+  background: url(stripe.png); 
+  color: #000;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+
+
+#divider .triangle-top {
+  border-color: transparent transparent #eee;
+  border-width: 80em;
+  bottom: 0;
+  position: fixed;
+}
+
+#info {
+  width: 100%; 
+  position: absolute;
+}
+#info #logo h1 {
+ padding-left: .31em;
+}
+#info #menu {
+  background: #a39b87;
+  opacity: .85;  
+  padding: 1.25em;
+  position: fixed;
+}
+#info #menu li {
+  margin-right: .62em;
+}
+#info #menu .cart {
+  margin-right: 1.25em;
+}
+#info #pages {
+  margin-top: 7.5em;
+  width: 45%;
+  margin-right: 5%;
+}
+
+
+#content {
+  position: relative;
+  top: 16em;
+  right: 0;  
+  width: 50%;  
+}
+#content #item {
+  margin-bottom: 2.5em;
+}
+#content #item .info {  
+  background: #f9f9f9;
+  padding: .62em 0;
+  font-size: larger;
+  text-align: right;
+  opacity: .9;
+  font-weight: bold;
+  
+  top: 5em;
+  position: relative;
+}
+
+
