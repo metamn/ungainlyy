@@ -26,8 +26,14 @@
   
   <body>
     <div class="container">
+      {% capture klass %}
+        {% for category in page.categories %}
+          {{ category | append:"-triangle "}}
+        {% endfor %}
+      {% endcapture %}
+      
       <div id="divider">
-        <div class="triangle triangle-top"></div>
+        <div id="{{ klass }}" class="triangle triangle-top {{ klass }}"></div>
       </div>
     
       <div id="content" class="right">
