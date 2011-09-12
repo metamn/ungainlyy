@@ -34,8 +34,9 @@ h1 {
 /* Links
 */
 
-a, a:visited {
+a, a:visited, .link {
   color: #000;
+  text-decoration: underline;
 }
 a.home, a.home:visited {
   color: #1817DE;
@@ -149,6 +150,11 @@ body {
   
   top: 5em;
   position: relative;
+}
+
+#content #image .stars {
+  margin-left: 220px;
+  font-size: larger;
 }
 
 
