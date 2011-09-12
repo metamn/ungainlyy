@@ -131,9 +131,10 @@ body {
 
 #content {
   position: relative;
-  top: 16em;
+  top: 17em;
   right: 0;  
-  width: 50%;  
+  width: 50%;
+  z-index: 1;  
 }
 #content #item {
   margin-bottom: 2.5em;
