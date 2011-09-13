@@ -1,0 +1,20 @@
+<div id="item" class="block">
+  <div class="info">
+    <a title="Permalink to {{ page.title }}" href="{{ page.url ]}}">{{ page.title }}</a>
+  </div>
+  
+  {% if page.images %}
+  <div id="images">
+    {% for image in page.images %}
+      <div id="image">
+        <a title="Visit {{ image.title }} at {{ image.url }}" href="{{ image.url }}">
+          <img title="Visit {{ image.title }} at {{ image.url }}" src="/assets/{{ image.src }}">
+        </a>
+        <p class="stars">* * *</p>
+      </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+  
+  {{ page.content }}
+</div>

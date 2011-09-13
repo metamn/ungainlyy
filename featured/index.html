@@ -1,0 +1,11 @@
+---
+layout: default
+categories:
+  - featured
+---
+
+
+{% for page in site.categories.featured %}
+  {% include article.html %}
+{% endfor %}
+

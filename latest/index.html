@@ -1,0 +1,11 @@
+---
+layout: default
+categories:
+  - latest
+---
+
+
+{% for page in site.categories.latest %}
+  {% include article.html %}
+{% endfor %}
+
