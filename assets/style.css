@@ -1,4 +1,4 @@
-.container {
+#container {
   width: 100%;
   max-width: 120em;  /* 80x16px=1920px */
   margin: 0 auto;
@@ -146,17 +146,23 @@ body {
   font-size: larger;
   text-align: right;
   opacity: .9;
-  font-weight: bold;
   
   top: 5em;
   position: relative;
 }
-
+#content #item .info h6 {
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+}
 #content #image .stars {
   margin-left: 220px;
   font-size: larger;
 }
 
+#content section.collection > header {
+  display: none;
+}
 
 
 /* 404

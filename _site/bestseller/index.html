@@ -1,12 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8" />   
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="shortcut icon" href="/assets/favicon.ico">
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
 
     <title>ungainly...</title>
     
-    <link href="/assets/base.css" media="all" type="text/css" rel="stylesheet">    
-    <link href="/assets/style.css" media="all" type="text/css" rel="stylesheet">
+    <link href="/assets/base.css" rel="stylesheet">    
+    <link href="/assets/style.css" rel="stylesheet">
     
     <!--[if IE]>
     <link href="/assets/ie.css" media="all" type="text/css" rel="stylesheet">  
@@ -23,29 +27,33 @@
   </head>
   
   <body>
-    <div class="container">
-      
-      
+    <div id="container">
       <div id="divider">
+        
         <div id="
-        
-          bestseller-triangle 
-        
-      " class="triangle triangle-top 
-        
-          bestseller-triangle 
-        
-      "></div>
+          
+            bestseller-triangle 
+          
+        " class="triangle triangle-top 
+          
+            bestseller-triangle 
+          
+        "></div>
       </div>
     
-      <div id="content" class="right">
-        
+      <section id="content" class="right">
+        <section id="bestseller" class="collection">
+  <header><h6>bestseller</h6></header>  
+  
+    
+  
+</section>
 
 
-      </div>
+      </section>
       
-      <div id="info" class="block">
-        <div id="menu" class="block">
+      <aside id="info" class="block">
+        <nav id="menu" class="block">
           <ul class="cart inline-list right">
             <li>1 month</li>
             <li>$ 4,000</li>
@@ -55,25 +63,25 @@
           <ul class="menu inline-list">
             <li><a class="home" href="/">Home</a></li>            
           </ul>     
-        </div>
+        </nav>
         
-        <div id="logo" class="block">
+        <header id="logo" class="block">
           <h1><a href="/">The Ungainly Experienc</a></h1>
-        </div>
+        </header>
         
-        <div id="collections" class="block">
+        <nav id="collections" class="block">
           <h4><a href="/bestseller" class="bestseller">Bestsellers</a></h4>
           <h4><a href="/latest" class="latest">Latest Products</a></h4>
           <h4><a href="/sale" class="sale">On Sale</a></h4>
           <h4><a href="/featured" class="featured">Featured</a></h4>
-        </div>
+        </nav>
         
-        <div id="pages" class="block">
+        <nav id="pages" class="block">
           <h6><a href="/about">About</a></h6>
           <h6><a href="http://metaman.tumblr.com">Blog</a></h6>
           <h6><a href="/contact">Contact</a></h6>
-        </div>      
-      </div>
+        </nav>      
+      </aside>
       
     </div>    
   </body>

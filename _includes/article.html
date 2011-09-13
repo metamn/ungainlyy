@@ -1,11 +1,11 @@
-<div id="item" class="block">
-  <div class="info">
-    <a title="Permalink to {{ page.title }}" href="{{ page.url ]}}">{{ page.title }}</a>
-  </div>
+<article id="item" class="block">
+  <header class="info">
+    <h6><a title="Permalink to {{ post.title }}" href="{{ post.url ]}}">{{ post.title }}</a></h6>
+  </header>
   
-  {% if page.images %}
+  {% if post.images %}
   <div id="images">
-    {% for image in page.images %}
+    {% for image in post.images %}
       <div id="image">
         <a title="Visit {{ image.title }} at {{ image.url }}" href="{{ image.url }}">
           <img title="Visit {{ image.title }} at {{ image.url }}" src="/assets/{{ image.src }}">
@@ -16,5 +16,5 @@
   </div>
   {% endif %}
   
-  {{ page.content }}
-</div>
+  {{ post.content }}
+</article>
