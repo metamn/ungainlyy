@@ -2,7 +2,8 @@
 layout: default
 ---
 
+<header class="hidden"><h6>The {{ page.title }} page</h6></header>
 <article id="{{ page.title }}" class="page">
-  <header><h6>{{ page.title }}</h6></header>
+  <header class="hidden"><h6>{{ page.title }}</h6></header>
   {{ content }}
 </article>
