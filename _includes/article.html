@@ -5,7 +5,7 @@
   
   {% if post.images %}
   <div id="images">
-    {% for image in post.images %}
+    {% for image in post.images limit: {{limit}} %}
       <div id="image">
         <a title="Visit {{ image.title }} at {{ image.url }}" href="{{ image.url }}">
           <img title="Visit {{ image.title }} at {{ image.url }}" src="/assets/{{ image.src }}">

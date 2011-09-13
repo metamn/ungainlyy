@@ -2,3 +2,8 @@
 layout: default
 ---
 
+<header class="hidden"><h6>The Index page</h6></header>
+{% for post in site.posts %}
+  {% assign limit = 1 %}
+  {% include article.html %}
+{% endfor %}
