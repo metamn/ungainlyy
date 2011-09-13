@@ -8,9 +8,54 @@
     <atom:link href="ungainly.../rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Tue, 13 Sep 2011 13:25:01 EEST</pubDate>
-    <lastBuildDate>Tue, 13 Sep 2011 13:25:01 EEST</lastBuildDate>
+    <pubDate>Tue, 13 Sep 2011 14:37:11 EEST</pubDate>
+    <lastBuildDate>Tue, 13 Sep 2011 14:37:11 EEST</lastBuildDate>
 
+    
+    <item>
+      <title>Split Testing</title>
+      <link>http://ungainlyy.com/split-testing</link>
+      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/split-testing</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Responsive Web Design</title>
+      <link>http://ungainlyy.com/responsive-web-design</link>
+      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/responsive-web-design</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Outstanding Design</title>
+      <link>http://ungainlyy.com/outstanding-design</link>
+      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/outstanding-design</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Html 5</title>
+      <link>http://ungainlyy.com/html-5</link>
+      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/html-5</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Cloud Hosting</title>
+      <link>http://ungainlyy.com/cloud-hosting</link>
+      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/cloud-hosting</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
     
     <item>
       <title>Scrol Themes For Shopify</title>
