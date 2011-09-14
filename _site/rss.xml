@@ -8,14 +8,23 @@
     <atom:link href="ungainly.../rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Tue, 13 Sep 2011 14:37:11 EEST</pubDate>
-    <lastBuildDate>Tue, 13 Sep 2011 14:37:11 EEST</lastBuildDate>
+    <pubDate>Wed, 14 Sep 2011 13:12:09 EEST</pubDate>
+    <lastBuildDate>Wed, 14 Sep 2011 13:12:09 EEST</lastBuildDate>
 
+    
+    <item>
+      <title>Instant Mindhsare</title>
+      <link>http://ungainlyy.com/instant-mindhsare</link>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/instant-mindhsare</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
     
     <item>
       <title>Split Testing</title>
       <link>http://ungainlyy.com/split-testing</link>
-      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
+      <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/split-testing</guid>
       <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
@@ -24,18 +33,18 @@
     <item>
       <title>Responsive Web Design</title>
       <link>http://ungainlyy.com/responsive-web-design</link>
-      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
+      <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/responsive-web-design</guid>
       <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
     </item>
     
     <item>
-      <title>Outstanding Design</title>
-      <link>http://ungainlyy.com/outstanding-design</link>
-      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
+      <title>Cloud Hosting</title>
+      <link>http://ungainlyy.com/cloud-hosting</link>
+      <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
-      <guid>http://ungainlyy.com/outstanding-design</guid>
+      <guid>http://ungainlyy.com/cloud-hosting</guid>
       <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
     </item>
     
@@ -45,15 +54,6 @@
       <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/html-5</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
-    </item>
-    
-    <item>
-      <title>Cloud Hosting</title>
-      <link>http://ungainlyy.com/cloud-hosting</link>
-      <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
-      <author>ungainly...</author>
-      <guid>http://ungainlyy.com/cloud-hosting</guid>
       <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
     </item>
     

@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en"> - ungainly...</title>
 	<link type="application/atom+xml" href="http://ungainlyy.com/feed/" rel="self"/>
  	<link type="text" href="http://ungainlyy.com" rel="alternate"/>
-	<updated>2011-09-13T14:37:11+03:00</updated>
+	<updated>2011-09-14T13:12:09+03:00</updated>
 	<id>http://ungainlyy.com</id>
 	<author>
 		<name>ungainly...</name>
@@ -13,9 +13,17 @@
 	
 	
 	<entry>
+		<title>Instant Mindhsare</title>
+		<link href="http://ungainlyy.com/instant-mindhsare"/>
+		<updated>2011-09-15T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/instant-mindhsare</id>
+		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+	</entry>
+	
+	<entry>
 		<title>Split Testing</title>
 		<link href="http://ungainlyy.com/split-testing"/>
-		<updated>2011-09-13T00:00:00+03:00</updated>
+		<updated>2011-09-14T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/split-testing</id>
 		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
 	</entry>
@@ -23,16 +31,16 @@
 	<entry>
 		<title>Responsive Web Design</title>
 		<link href="http://ungainlyy.com/responsive-web-design"/>
-		<updated>2011-09-13T00:00:00+03:00</updated>
+		<updated>2011-09-14T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/responsive-web-design</id>
 		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
 	</entry>
 	
 	<entry>
-		<title>Outstanding Design</title>
-		<link href="http://ungainlyy.com/outstanding-design"/>
-		<updated>2011-09-13T00:00:00+03:00</updated>
-		<id>http://http://ungainlyy.com/outstanding-design</id>
+		<title>Cloud Hosting</title>
+		<link href="http://ungainlyy.com/cloud-hosting"/>
+		<updated>2011-09-14T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/cloud-hosting</id>
 		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
 	</entry>
 	
@@ -41,14 +49,6 @@
 		<link href="http://ungainlyy.com/html-5"/>
 		<updated>2011-09-13T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/html-5</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
-	</entry>
-	
-	<entry>
-		<title>Cloud Hosting</title>
-		<link href="http://ungainlyy.com/cloud-hosting"/>
-		<updated>2011-09-13T00:00:00+03:00</updated>
-		<id>http://http://ungainlyy.com/cloud-hosting</id>
 		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
 	</entry>
 	
