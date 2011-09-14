@@ -6,7 +6,13 @@ layout: default
 {% assign post = page %}
 {% include article.html %}
 
-
-{% for post in site.related_posts %}
-  <h3>{{ post.title }}</h3>
-{% endfor %}
+<nav id="similar" class="block">
+  <header><h3>More in <em>{{ page.categories.first }}</em></h3></header>
+  <ul>
+  {% for post in site.posts %}
+    {% if (post.categories.first == page.categories.first) and (post.title != page.title) %}
+      <li><a title="Visit {{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</nav>
