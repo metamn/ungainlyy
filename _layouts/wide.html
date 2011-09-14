@@ -32,7 +32,21 @@
     <div id="container">
       
       <section id="screenshots">
-        {{ content }}
+        
+        <div id="background-image">
+          <a title="View live at {{ page.link }}" href="{{ page.link }}">
+            <img title="View live at {{ page.link }}" src="/assets/{{ page.images.first.src }}" /></a>
+        </div>
+        
+        <div id="navigation">
+          {% for post in site.posts %}
+            {% if (post.categories.first == page.categories.first) and (post.title != page.title) %}
+              <img title="{{ post.title }}" src="/assets/{{ post.images.first.src }}" />
+            {% endif %}
+          {% endfor %}
+        </div>
+        
+        
       </section>
       
       <header id="info" class="block">
