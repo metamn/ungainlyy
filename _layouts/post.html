@@ -5,3 +5,8 @@ layout: default
 <header class="hidden"><h6>The {{ page.title }} page</h6></header>
 {% assign post = page %}
 {% include article.html %}
+
+
+{% for post in site.related_posts %}
+  <h3>{{ post.title }}</h3>
+{% endfor %}
