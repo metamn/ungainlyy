@@ -8,7 +8,7 @@
     {% for image in post.images limit: {{limit}} %}
       <div id="image">
         <a title="Visit {{ image.title }} at {{ image.url }}" href="{{ image.url }}">
-          <img title="Visit {{ image.title }} at {{ image.url }}" src="/assets/{{ image.src }}">
+          <img class="{{ post.categories.first }}-border" title="Visit {{ image.title }} at {{ image.url }}" src="/assets/{{ image.src }}">
         </a>
         <p class="stars">* * *</p>
       </div>
