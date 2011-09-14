@@ -164,6 +164,27 @@ body {
 }
 
 
+/* Wide
+*/
+
+.wide #info {
+  top: 0;
+}
+
+.wide #background-image {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  z-index: 0;
+  top: 5em;
+  margin: 0 auto;
+}
+.wide #background-image img {
+  width: 100%;
+  height: 100%;
+}
+
+
 /* 404
 */
 
