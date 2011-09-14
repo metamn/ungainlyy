@@ -140,19 +140,18 @@ body {
 #content #item {
   margin-bottom: 2.5em;
 }
-#content #item .info {  
-  background: #f9f9f9;
-  padding: .625em 0;
-  font-size: larger;
-  text-align: right;
+#content #item .info {
+  padding: .625em;
+  background: #D6D19C;
   opacity: .9;
   
   top: 5em;
+  left: -7em;
+  width: 5em;
   position: relative;
 }
 #content #item .info h6 {
   padding: 0;
-  font-size: 100%;
   font-weight: bold;
 }
 #content #image .stars {
