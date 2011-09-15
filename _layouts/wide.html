@@ -33,22 +33,22 @@
       
       <section id="screenshots">        
       
-        {% assign next = "" %}
-        {% assign current = "" %}
+        {% assign next = '' %}
+        {% assign current = "'' %}
         
         {% for post in site.categories.latest %}
-          {% if current == "found" %}
+          {% if current == 'found' %}
             {% assign next = post.url %}
-            {% assign current = "" %}
+            {% assign current = '' %}
           {% endif %}
           {% if post.title == page.title %}
-            {% assign current = "found" %}
+            {% assign current = 'found' %}
           {% endif %}
         {% endfor %}
         
         next: {{ next }}
         
-        {% if next == "" %}
+        {% if next == '' %}
           {% assign next = site.categories.latest.first.url %}
         {% endif %}
       
