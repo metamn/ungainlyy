@@ -32,29 +32,17 @@
     <div id="container">
       
       <section id="screenshots">        
-      
-        {% assign next = '' %}
-        {% assign current = '' %}
         
-        {% for post in site.categories.latest %}
-          {% if current == 'found' %}
-            {% assign next = post.url %}
-            {% assign current = '' %}
-          {% endif %}
-          {% if post.title == page.title %}
-            {% assign current = 'found' %}
-          {% endif %}
-        {% endfor %}
         
-        next: {{ next }}
-        
-        {% if next == '' %}
-          {% assign next = site.categories.latest.first.url %}
-        {% endif %}
-      
         <div id="background-image">
-          <img class="link" title="" rel="{{ page.link }}" rev="{{ site.url }}{{ next }}" src="/assets/{{ page.images.first.src }}"/>
-        </div>        
+          <img class="link" title="" rel="{{ page.link }}" src="/assets/{{ page.images.first.src }}"/>
+        </div>
+        
+        <ul id="posts" class="hidden">
+          {% for post in site.categories.latest %}
+            <li class="{{ post.link }}">{{ site.url }}{{ post.url }}</li>
+          {% endfor %}
+        </ul>        
       </section>
       
       <header id="info" class="block">

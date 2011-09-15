@@ -7,10 +7,20 @@ jQuery(document).ready(function(){
   // Click and double click on portfolio items
   var flag = 1; 
   jQuery(".wide #background-image img").click(function() { 
-    var url = jQuery(this).attr('rev');
+    var flag = 1;
+    
+    var url = jQuery(".wide #posts li").first().html();
+    jQuery(".wide #posts li").each(function(index) {
+      if (jQuery(this).attr('class') == jQuery("#background-image img").attr('rel')) {
+        if (jQuery(this).next().html()) {
+          url = jQuery(this).next().html();
+        }        
+      };
+    });
+    
     setTimeout(function() { 
       if(flag) { 
-        window.location.href = url; 
+        window.location.href = url;
       } 
     }, 500); 
     flag = 1; 
