@@ -33,23 +33,7 @@
       
       <section id="screenshots">        
       
-        {% assign next = "" %}
-        {% assign current = "" %}
         
-        {% for post in site.categories.latest %}
-          {% if current == "found" %}
-            {% assign next = post.url %}
-            {% assign current = "" %}
-          {% endif %}
-          {% if post.title == page.title %}
-            {% assign current = "found" %}
-          {% endif %}
-        {% endfor %}
-        
-        {% if next == "" %}
-          {% assign next = site.categories.latest.first.url %}
-        {% endif %}
-      
         <div id="background-image">
           <img class="link" title="" rel="{{ page.link }}" rev="{{ site.url }}{{ next }}" src="/assets/{{ page.images.first.src }}"/>
         </div>        
