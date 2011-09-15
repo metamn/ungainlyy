@@ -3,6 +3,25 @@ jQuery.noConflict();
 // Use jQuery via jQuery(...)
 jQuery(document).ready(function(){
 
+  
+  // Click and double click on portfolio items
+  var flag = 1; 
+  jQuery(".wide #background-image img").click(function() { 
+    var url = jQuery(this).attr('rev');
+    setTimeout(function() { 
+      if(flag) { 
+        window.location.href = url; 
+      } 
+    }, 500); 
+    flag = 1; 
+  });  
+  jQuery(".wide #background-image img").dblclick(function() { 
+    window.location.href = jQuery(this).attr('rel');
+    flag = null; 
+  });
+  
+  
+  
   // Show the Soros book
   jQuery(".soros").hover (
     function() {

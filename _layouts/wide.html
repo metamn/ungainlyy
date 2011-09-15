@@ -32,22 +32,35 @@
     <div id="container">
       
       <section id="screenshots">        
-        <div id="background-image">
-          <a title="View live at {{ page.link }}" href="{{ page.link }}">
-            <img title="View live at {{ page.link }}" src="/assets/{{ page.images.first.src }}" /></a>
-        </div>
+      
+        {% assign next = "" %}
+        {% assign current = "" %}
         
-        <div id="navigation">
-          {% for post in site.posts %}
-            {% if (post.categories.first == page.categories.first) and (post.title != page.title) %}
-              <img title="{{ post.title }}" src="/assets/{{ post.images.first.src }}" />
-            {% endif %}
-          {% endfor %}
-        </div>
+        {% for post in site.categories.latest %}
+          {% if current == "found" %}
+            {% assign next = post.url %}
+            {% assign current = "" %}
+          {% endif %}
+          {% if post.title == page.title %}
+            {% assign current = "found" %}
+          {% endif %}
+        {% endfor %}
+        
+        {% if next == "" %}
+          {% assign next = site.categories.latest.first.url %}
+        {% endif %}
+      
+        <div id="background-image">
+          <img class="link" title="" rel="{{ page.link }}" rev="{{ site.url }}{{ next }}" src="/assets/{{ page.images.first.src }}"/>
+        </div>        
       </section>
       
       <header id="info" class="block">
         <nav id="menu" class="block">
+          <ul id="message" class="inline-list right">
+            <li><em>Click for next. Double click to view live</em></li>
+          </ul>
+        
           <ul class="menu inline-list">
             <li><h1><a href="/">Ungainly</a></h1></li>            
           </ul>     

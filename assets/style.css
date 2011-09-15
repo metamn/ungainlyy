@@ -121,7 +121,7 @@ body {
 #info #menu li {
   margin-right: .625em;
 }
-#info #menu .cart {
+#info #menu .cart, #info #menu #message {
   margin-right: 1.25em;
 }
 #info #pages {
