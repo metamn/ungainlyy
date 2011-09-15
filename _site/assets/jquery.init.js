@@ -3,12 +3,8 @@ jQuery.noConflict();
 // Use jQuery via jQuery(...)
 jQuery(document).ready(function(){
 
-  
-  // Click and double click on portfolio items
-  var flag = 1; 
-  jQuery(".wide #background-image img").click(function() { 
-    var flag = 1;
-    
+  // Single click on portfolio
+  function singleClick(e) {
     var url = jQuery(".wide #posts li").first().html();
     jQuery(".wide #posts li").each(function(index) {
       if (jQuery(this).attr('class') == jQuery("#background-image img").attr('rel')) {
@@ -17,17 +13,23 @@ jQuery(document).ready(function(){
         }        
       };
     });
-    
-    setTimeout(function() { 
-      if(flag) { 
-        window.location.href = url;
-      } 
-    }, 500); 
-    flag = 1; 
-  });  
-  jQuery(".wide #background-image img").dblclick(function() { 
-    window.location.href = jQuery(this).attr('rel');
-    flag = null; 
+    window.location.href = url;
+  }
+  
+  // Click and double click on portfolio items
+  jQuery(".wide #background-image img").click(function(e) {
+    var that = this;
+    setTimeout(function() {
+        var dblclick = parseInt(jQuery(that).data('double'), 10);
+        if (dblclick > 0) {
+            jQuery(that).data('double', dblclick-1);
+        } else {
+          singleClick.call(that, e);
+        }
+    }, 300);
+  }).dblclick(function(e) {
+      jQuery(this).data('double', 2);      
+      window.location.href = jQuery(this).attr('rel');
   });
   
   
@@ -38,7 +40,7 @@ jQuery(document).ready(function(){
       jQuery("#soros").show('slow');
     },
     function () {
-    
+      // do not hide ...
     }  
   );
 
