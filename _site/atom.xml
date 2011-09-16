@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en"> - ungainly...</title>
 	<link type="application/atom+xml" href="http://ungainlyy.com/feed/" rel="self"/>
  	<link type="text" href="http://ungainlyy.com" rel="alternate"/>
-	<updated>2011-09-15T17:45:17+03:00</updated>
+	<updated>2011-09-16T13:24:44+03:00</updated>
 	<id>http://ungainlyy.com</id>
 	<author>
 		<name>ungainly...</name>
@@ -29,10 +29,10 @@
 	</entry>
 	
 	<entry>
-		<title>Ahead Of Trends</title>
-		<link href="http://ungainlyy.com/ahead-of-trends"/>
+		<title>Raw Style</title>
+		<link href="http://ungainlyy.com/raw-style"/>
 		<updated>2011-09-13T00:00:00+03:00</updated>
-		<id>http://http://ungainlyy.com/ahead-of-trends</id>
+		<id>http://http://ungainlyy.com/raw-style</id>
 		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
 	</entry>
 	

@@ -248,7 +248,7 @@ ul.inline-list {
   margin: 0;
 }
 ul.inline-list li {
-  display: inline;
+  display: inline-block;
   list-style-type: none;
   margin-left: 0;
   white-space: nowarp;  
