@@ -8,14 +8,41 @@
     <atom:link href="ungainly.../rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Sat, 17 Sep 2011 12:27:52 EEST</pubDate>
-    <lastBuildDate>Sat, 17 Sep 2011 12:27:52 EEST</lastBuildDate>
+    <pubDate>Sat, 17 Sep 2011 13:09:04 EEST</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2011 13:09:04 EEST</lastBuildDate>
 
+    
+    <item>
+      <title>Scrol</title>
+      <link>http://ungainlyy.com/scrol</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/scrol</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Bringing Us In Top Google Search Results</title>
+      <link>http://ungainlyy.com/bringing-us-in-top-google-search-results</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/bringing-us-in-top-google-search-results</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Impressed With Your Design Skills</title>
+      <link>http://ungainlyy.com/impressed-with-your-design-skills</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/impressed-with-your-design-skills</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
     
     <item>
       <title>Smuff</title>
       <link>http://ungainlyy.com/smuff</link>
-      <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/smuff</guid>
       <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
@@ -24,9 +51,27 @@
     <item>
       <title>Languagelab</title>
       <link>http://ungainlyy.com/languagelab</link>
-      <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/languagelab</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Clean Feel</title>
+      <link>http://ungainlyy.com/clean-feel</link>
+      <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/clean-feel</guid>
+      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>I Like Theme Simplicity</title>
+      <link>http://ungainlyy.com/I-like-theme-simplicity</link>
+      <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/I-like-theme-simplicity</guid>
       <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
     </item>
     

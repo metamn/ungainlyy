@@ -245,6 +245,11 @@ article.page {
   margin-top: 5em;
 }
 
+.quote {
+  font-style: italic;
+  font-weight: normal;
+}
+
 
 
 /* 404

@@ -1,0 +1,10 @@
+<nav id="similar" class="block">
+  <header><h3>More in <em>{{ category }}</em></h3></header>
+  <ul>
+  {% for post in site.posts %}
+    {% if (post.categories.first == category ) and (post.title != current) %}
+      <li><a title="Visit {{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</nav>

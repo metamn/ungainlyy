@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en"> - ungainly...</title>
 	<link type="application/atom+xml" href="http://ungainlyy.com/feed/" rel="self"/>
  	<link type="text" href="http://ungainlyy.com" rel="alternate"/>
-	<updated>2011-09-17T12:27:52+03:00</updated>
+	<updated>2011-09-17T13:09:04+03:00</updated>
 	<id>http://ungainlyy.com</id>
 	<author>
 		<name>ungainly...</name>
@@ -13,9 +13,33 @@
 	
 	
 	<entry>
+		<title>Scrol</title>
+		<link href="http://ungainlyy.com/scrol"/>
+		<updated>2011-09-17T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/scrol</id>
+		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+	</entry>
+	
+	<entry>
+		<title>Bringing Us In Top Google Search Results</title>
+		<link href="http://ungainlyy.com/bringing-us-in-top-google-search-results"/>
+		<updated>2011-09-17T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/bringing-us-in-top-google-search-results</id>
+		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+	</entry>
+	
+	<entry>
+		<title>Impressed With Your Design Skills</title>
+		<link href="http://ungainlyy.com/impressed-with-your-design-skills"/>
+		<updated>2011-09-16T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/impressed-with-your-design-skills</id>
+		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+	</entry>
+	
+	<entry>
 		<title>Smuff</title>
 		<link href="http://ungainlyy.com/smuff"/>
-		<updated>2011-09-14T00:00:00+03:00</updated>
+		<updated>2011-09-15T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/smuff</id>
 		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
 	</entry>
@@ -23,8 +47,24 @@
 	<entry>
 		<title>Languagelab</title>
 		<link href="http://ungainlyy.com/languagelab"/>
-		<updated>2011-09-14T00:00:00+03:00</updated>
+		<updated>2011-09-15T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/languagelab</id>
+		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+	</entry>
+	
+	<entry>
+		<title>Clean Feel</title>
+		<link href="http://ungainlyy.com/clean-feel"/>
+		<updated>2011-09-14T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/clean-feel</id>
+		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+	</entry>
+	
+	<entry>
+		<title>I Like Theme Simplicity</title>
+		<link href="http://ungainlyy.com/I-like-theme-simplicity"/>
+		<updated>2011-09-14T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/I-like-theme-simplicity</id>
 		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
 	</entry>
 	
