@@ -7,3 +7,22 @@ layout: default
   <header class="hidden"><h6>{{ page.title }}</h6></header>
   {{ content }}
 </article>
+
+
+{% assign category = 'bestseller' %}
+{% assign current = '' %}
+{% include similar.html %}
+
+
+<!--
+<nav id="similar" class="block">
+  <header><h3>More in <em>bestseller</em></h3></header>
+  <ul>
+  {% for post in site.categories.bestseller %}
+    <li><a title="Visit {{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></li>    
+  {% endfor %}
+  </ul>
+</nav>
+-->
+
+
