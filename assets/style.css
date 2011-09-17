@@ -222,6 +222,30 @@ a.home, a.home:visited {
 
 
 
+table {
+  margin: 1.25em 0;
+}
+td, th {
+  text-align: left;
+  padding: .612em 1.25em 1.25em .612em;
+  vertical-align: top;
+}
+th {
+  border-bottom: 1px solid #ccc;
+}
+td {
+  border-bottom: 1px dotted #ccc;
+}
+td.first {
+  font-variant: small-caps;
+}
+
+
+article.page {
+  margin-top: 5em;
+}
+
+
 
 /* 404
 */

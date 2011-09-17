@@ -34,16 +34,6 @@ jQuery(document).ready(function(){
   
   
   
-  // Show the Soros book
-  jQuery(".soros").hover (
-    function() {
-      jQuery("#soros").show('slow');
-    },
-    function () {
-      // do not hide ...
-    }  
-  );
-
   // Change colors on menu navigation
   jQuery("#collections a").hover (    
     function () {      

@@ -8,8 +8,8 @@
     <atom:link href="ungainly.../rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Fri, 16 Sep 2011 13:24:44 EEST</pubDate>
-    <lastBuildDate>Fri, 16 Sep 2011 13:24:44 EEST</lastBuildDate>
+    <pubDate>Sat, 17 Sep 2011 12:27:52 EEST</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2011 12:27:52 EEST</lastBuildDate>
 
     
     <item>
@@ -40,7 +40,7 @@
     </item>
     
     <item>
-      <title>Split Testing</title>
+      <title>Split (A/B) testing</title>
       <link>http://ungainlyy.com/split-testing</link>
       <pubDate>Mon, 12 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
