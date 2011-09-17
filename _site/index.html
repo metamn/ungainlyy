@@ -10,7 +10,13 @@
     <title>ungainly...</title>
     
     <link href="/assets/base.css" rel="stylesheet">    
-    <link href="/assets/style.css" rel="stylesheet">
+    <link href="/assets/layout.css" rel="stylesheet">
+    <link href="/assets/theme.css" rel="stylesheet">    
+    
+    <link rel="stylesheet" href="/assets/tablet.css" media="screen and (min-width: 1px) and (max-width: 1024px)" />
+    
+    <link rel="stylesheet" href="/assets/long.css" media="screen and (device-aspect-ratio: 4/3)" />
+    <link rel="stylesheet" href="/assets/long.css" media="screen and (device-aspect-ratio: 5/4)" />
     
     <!--[if IE]>
     <link href="/assets/ie.css" media="all" type="text/css" rel="stylesheet">  
@@ -38,6 +44,38 @@
         "></div>
       </div>
     
+      <header id="info" class="block">
+        <nav id="menu" class="desktop block">
+          <h3 class="hidden">Top menu</h3>
+          <ul class="cart inline-list right">
+            <li>Monthly rate: $ 4,000</li>
+          </ul>
+          
+          <ul class="menu inline-list">
+            <li><a class="home" href="/">Home</a></li>            
+          </ul>     
+        </nav>
+        
+        <hgroup id="logo" class="block">
+          <h1><a href="/">The Ungainly Experienc</a></h1>
+        </hgroup>
+        
+        <nav id="collections" class="block">
+          <h3 class="hidden">Category menu</h3>
+          <h4><a href="/bestseller" class="bestseller">Bestsellers</a></h4>
+          <h4><a href="/latest" class="latest">Latest Products</a></h4>
+          <h4><a href="/sale" class="sale">On Sale</a></h4>
+          <h4><a href="/featured" class="featured">Featured</a></h4>
+        </nav>
+        
+        <nav id="pages" class="block">
+          <h3 class="hidden">Page menu</h3>
+          <h6><a href="/about">About</a></h6>
+          <h6><a href="http://metaman.tumblr.com">Blog</a></h6>
+          <h6><a href="/contact">Contact</a></h6>
+        </nav>      
+      </header>
+      
       <section id="content" class="right">
         <header class="hidden"><h6>The Index page</h6></header>
 
@@ -56,7 +94,7 @@
           <a title="Visit Scrol at /scrol" href="/scrol">
             <img class="latest-border" title="Visit Scrol at /scrol" src="/assets/scrol-large.png">
           </a>
-          <p class="stars">* * *</p>
+          <p class="desktop stars">* * *</p>
         </div>
       
     </div>
@@ -135,7 +173,7 @@
           <a title="Visit Smuff at /smuff" href="/smuff">
             <img class="latest-border" title="Visit Smuff at /smuff" src="/assets/smuff.png">
           </a>
-          <p class="stars">* * *</p>
+          <p class="desktop stars">* * *</p>
         </div>
       
     </div>
@@ -166,7 +204,7 @@
           <a title="Visit Languagelab at /languagelab" href="/languagelab">
             <img class="latest-border" title="Visit Languagelab at /languagelab" src="/assets/languagelab.png">
           </a>
-          <p class="stars">* * *</p>
+          <p class="desktop stars">* * *</p>
         </div>
       
     </div>
@@ -286,7 +324,7 @@ We all know what's <em>hot</em> in web design by checking the best showcases lik
           <a title="Visit Split testing at http://37signals.com/svn/posts/2991-behind-the-scenes-ab-testing-part-3-final" href="http://37signals.com/svn/posts/2991-behind-the-scenes-ab-testing-part-3-final">
             <img class="bestseller-border" title="Visit Split testing at http://37signals.com/svn/posts/2991-behind-the-scenes-ab-testing-part-3-final" src="/assets/split-testing.png">
           </a>
-          <p class="stars">* * *</p>
+          <p class="desktop stars">* * *</p>
         </div>
       
     </div>
@@ -337,7 +375,7 @@ We all know what's <em>hot</em> in web design by checking the best showcases lik
           <a title="Visit Responsive Web Design at http://www.alistapart.com/articles/responsive-web-design/" href="http://www.alistapart.com/articles/responsive-web-design/">
             <img class="bestseller-border" title="Visit Responsive Web Design at http://www.alistapart.com/articles/responsive-web-design/" src="/assets/responsive.png">
           </a>
-          <p class="stars">* * *</p>
+          <p class="desktop stars">* * *</p>
         </div>
       
     </div>
@@ -433,7 +471,7 @@ All sites created by Ungainly use HTML5. You can check if your current site supp
           <a title="Visit Scrol Theme for Shopify at http://scrol.myshopify.com" href="http://scrol.myshopify.com">
             <img class="sale-border" title="Visit Scrol Theme for Shopify at http://scrol.myshopify.com" src="/assets/scrol.png">
           </a>
-          <p class="stars">* * *</p>
+          <p class="desktop stars">* * *</p>
         </div>
       
     </div>
@@ -472,7 +510,7 @@ If you aim for exclusivity you must buy them all.
           <a title="Visit Clair at /clair" href="/clair">
             <img class="latest-border" title="Visit Clair at /clair" src="/assets/clair.png">
           </a>
-          <p class="stars">* * *</p>
+          <p class="desktop stars">* * *</p>
         </div>
       
     </div>
@@ -489,39 +527,6 @@ If you aim for exclusivity you must buy them all.
 
       </section>
       
-      <header id="info" class="block">
-        <nav id="menu" class="block">
-          <h3 class="hidden">Top menu</h3>
-          <ul class="cart inline-list right">
-            <li>1 month</li>
-            <li>$ 4,000</li>
-            <li class="spacer">&nbsp;</li>
-          </ul>
-          
-          <ul class="menu inline-list">
-            <li><a class="home" href="/">Home</a></li>            
-          </ul>     
-        </nav>
-        
-        <hgroup id="logo" class="block">
-          <h1><a href="/">The Ungainly Experienc</a></h1>
-        </hgroup>
-        
-        <nav id="collections" class="block">
-          <h3 class="hidden">Category menu</h3>
-          <h4><a href="/bestseller" class="bestseller">Bestsellers</a></h4>
-          <h4><a href="/latest" class="latest">Latest Products</a></h4>
-          <h4><a href="/sale" class="sale">On Sale</a></h4>
-          <h4><a href="/featured" class="featured">Featured</a></h4>
-        </nav>
-        
-        <nav id="pages" class="block">
-          <h3 class="hidden">Page menu</h3>
-          <h6><a href="/about">About</a></h6>
-          <h6><a href="http://metaman.tumblr.com">Blog</a></h6>
-          <h6><a href="/contact">Contact</a></h6>
-        </nav>      
-      </header>
       
     </div>
     

@@ -12,7 +12,13 @@
     <title>ungainly...</title>
     
     <link href="/assets/base.css" rel="stylesheet">    
-    <link href="/assets/style.css" rel="stylesheet">
+    <link href="/assets/layout.css" rel="stylesheet">
+    <link href="/assets/theme.css" rel="stylesheet">    
+    
+    <link rel="stylesheet" href="/assets/tablet.css" media="screen and (min-width: 1px) and (max-width: 1024px)" />
+    
+    <link rel="stylesheet" href="/assets/long.css" media="screen and (device-aspect-ratio: 4/3)" />
+    <link rel="stylesheet" href="/assets/long.css" media="screen and (device-aspect-ratio: 5/4)" />
     
     <!--[if IE]>
     <link href="/assets/ie.css" media="all" type="text/css" rel="stylesheet">  
@@ -40,17 +46,11 @@
         <div id="{{ klass }}" class="triangle triangle-top {{ klass }}"></div>
       </div>
     
-      <section id="content" class="right">
-        {{ content }}
-      </section>
-      
       <header id="info" class="block">
-        <nav id="menu" class="block">
+        <nav id="menu" class="desktop block">
           <h3 class="hidden">Top menu</h3>
           <ul class="cart inline-list right">
-            <li>1 month</li>
-            <li>$ 4,000</li>
-            <li class="spacer">&nbsp;</li>
+            <li>Monthly rate: $ 4,000</li>
           </ul>
           
           <ul class="menu inline-list">
@@ -77,6 +77,11 @@
           <h6><a href="/contact">Contact</a></h6>
         </nav>      
       </header>
+      
+      <section id="content" class="right">
+        {{ content }}
+      </section>
+      
       
     </div>
     

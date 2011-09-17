@@ -1,0 +1,102 @@
+/* Colors
+
+- base, brown: A39B87
+- base, gray: EEE
+*/
+
+
+
+/* Links and colors
+*/
+
+a, a:visited, .link {
+  color: #000;
+  text-decoration: underline;
+}
+a.home, a.home:visited {
+  color: #1817DE;
+}
+
+
+#menu a, #menu a:visited, #pages a, #pages a:visited, #collections a, #collections a:visited {
+  text-decoration: none;
+}
+#menu a:active, #menu a:hover {
+  text-decoration: underline;
+}
+
+
+.bestseller {
+  background: #0593F2 !important;
+}
+.latest {
+  background: #ABF205 !important;
+}
+.sale {
+  background: #C60017 !important;
+}
+.featured {
+  background: #F9DD07 !important;
+}
+.bestseller-triangle {
+  border-color: transparent transparent #0593F2 !important;
+}
+.latest-triangle {
+  border-color: transparent transparent #ABF205 !important;
+}
+.sale-triangle {
+  border-color: transparent transparent #C60017 !important;
+}
+.featured-triangle {
+  border-color: transparent transparent #F9DD07 !important;
+}
+
+#divider .triangle-top {
+  border-color: transparent transparent #eee;
+}
+
+
+
+/* Header
+*/
+
+#info #menu {
+  background: #a39b87;
+  opacity: .85;
+}
+
+
+/* Content
+*/
+
+#content #item .info {
+  background: #D6D19C;
+  opacity: .9;
+}
+
+th {
+  border-bottom: 1px solid #ccc;
+}
+td {
+  border-bottom: 1px dotted #ccc;
+}
+
+
+
+
+/* Portfolio
+*/
+
+body.wide {
+  background: #A39B87;
+}
+.wide #background-image {
+  -moz-box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;  
+}
+.wide #logo {
+  background: #A39B87;
+  opacity: .85;
+}
+
