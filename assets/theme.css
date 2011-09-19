@@ -1,7 +1,9 @@
 /* Colors
 
 - base, brown: A39B87
+  - lighter, D6D19C, kuler compound
 - base, gray: EEE
+- colors: kuler, refreshing melon
 */
 
 
@@ -13,42 +15,39 @@ a, a:visited, .link {
   color: #000;
   text-decoration: underline;
 }
-a.home, a.home:visited {
-  color: #1817DE;
-}
 
 
 #menu a, #menu a:visited, #pages a, #pages a:visited, #collections a, #collections a:visited {
   text-decoration: none;
 }
-#menu a:active, #menu a:hover {
+#menu a.home, #menu a:active, #menu a:hover {
   text-decoration: underline;
 }
 
 
-.bestseller {
-  background: #0593F2 !important;
+.services {
+  background: #8DC7B8 !important;
 }
-.latest {
-  background: #ABF205 !important;
+.portfolio {
+  background: #A7BD5B !important;
 }
 .sale {
-  background: #C60017 !important;
+  background: #DC574E !important;
 }
-.featured {
-  background: #F9DD07 !important;
+.feedback {
+  background: #ED9355 !important;
 }
-.bestseller-triangle {
-  border-color: transparent transparent #0593F2 !important;
+.services-triangle {
+  border-color: transparent transparent #8DC7B8 !important;
 }
-.latest-triangle {
-  border-color: transparent transparent #ABF205 !important;
+.portfolio-triangle {
+  border-color: transparent transparent #A7BD5B !important;
 }
 .sale-triangle {
-  border-color: transparent transparent #C60017 !important;
+  border-color: transparent transparent #DC574E !important;
 }
-.featured-triangle {
-  border-color: transparent transparent #F9DD07 !important;
+.feedback-triangle {
+  border-color: transparent transparent #ED9355 !important;
 }
 
 #divider .triangle-top {
