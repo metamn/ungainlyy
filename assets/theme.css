@@ -68,7 +68,7 @@ a, a:visited, .link {
 /* Content
 */
 
-#content #item .info {
+#item .info {
   background: #D6D19C;
   opacity: .9;
 }

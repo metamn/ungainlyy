@@ -6,9 +6,12 @@ layout: default
 <section id="{{ page.categories.first }}" class="collection">
   <header><h6>{{ page.categories.first }}</h6></header>  
   {% for post in site.posts %}
-    {% if post.categories.first == page.categories.first %}
-      {% include article.html %}
+    {% if post.categories.first != page.categories.first %}
+      {% assign klass="hidden" %}
+    {% else %}
+      {% assign klass="" %}
     {% endif %}
+    {% include article.html %}
   {% endfor %}
 </section>
 

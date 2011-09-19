@@ -73,17 +73,17 @@ h1 {
 /* Content
 */
 
-#content {
+#content, #message {
   position: relative;
   top: 17em;
   right: 1%;  
   width: 50%;
   z-index: 1;  
 }
-#content #item {
+#item {
   margin-bottom: 2.5em;
 }
-#content #item .info {
+#item .info {
   padding: .625em;
   top: 5em;
   left: -7em;
@@ -91,13 +91,9 @@ h1 {
   position: relative;
   z-index: 2;
 }
-#content #item .info h6 {
+#item .info h6 {
   padding: 0;
   font-weight: bold;
-}
-#content #image .stars {
-  margin-left: 220px;
-  font-size: larger;
 }
 
 #content section.collection > header {

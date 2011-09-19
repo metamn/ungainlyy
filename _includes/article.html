@@ -1,4 +1,4 @@
-<article id="item" class="block">
+<article id="item" class="block type-{{ post.categories.first }} {{ klass }}">
   <header class="info">
     <h6><a title="Permalink to {{ post.title }}" href="{{ post.url ]}}">
       {% if post.categories.first == 'feedback' %}<span class="quote">"{% endif %}{{ post.title }}{% if post.categories.first == 'featured' %}"</span>{% endif %}
@@ -12,7 +12,6 @@
           <a title="Visit {{ image.title }} at {{ image.url }}" href="{{ image.url }}">
             <img class="{{ post.categories.first }}-border" title="Visit {{ image.title }} at {{ image.url }}" src="/assets/{{ image.src }}">
           </a>
-          <p class="desktop stars">* * *</p>
         </div>
       {% endfor %}
     </div>
