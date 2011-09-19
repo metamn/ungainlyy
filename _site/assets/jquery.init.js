@@ -32,5 +32,30 @@ jQuery(document).ready(function(){
       window.location.href = jQuery(this).attr('rel');
   });
   
+
+  // Change colors on menu navigation
+  jQuery("#collections a").hover (
+    function () {
+      removeColors();
+      
+      var color = jQuery(this).attr('class');
+      var klass = color + "-triangle";
+      jQuery("#divider .triangle-top").addClass(klass);
+    },
+    function () {
+      var color = jQuery(this).attr('class');
+      var klass = color + "-triangle";
+      jQuery("#divider .triangle-top").removeClass(klass);
+      // Restore original klass, if any
+      jQuery("#divider .triangle-top").addClass(jQuery("#divider .triangle-top").attr("id"));
+    }
+  );
   
+  // Remove all color classes which might be set previously
+  function removeColors() {
+    var a = ["services", "portfolio", "sale", "feedback"]
+    for (var i = 0; i < a.length; i++) {
+      jQuery("#divider .triangle-top").removeClass(a[i]+"-triangle");
+    }
+  }  
 });
