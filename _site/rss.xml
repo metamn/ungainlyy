@@ -8,8 +8,8 @@
     <atom:link href="ungainly.../rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Mon, 19 Sep 2011 19:41:19 EEST</pubDate>
-    <lastBuildDate>Mon, 19 Sep 2011 19:41:19 EEST</lastBuildDate>
+    <pubDate>Mon, 19 Sep 2011 20:12:59 EEST</pubDate>
+    <lastBuildDate>Mon, 19 Sep 2011 20:12:59 EEST</lastBuildDate>
 
     
     <item>
@@ -76,11 +76,11 @@
     </item>
     
     <item>
-      <title>Raw Style</title>
-      <link>http://ungainlyy.com/raw-style</link>
+      <title>Style, ungainly.</title>
+      <link>http://ungainlyy.com/ungainly-style</link>
       <pubDate>Tue, 13 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
-      <guid>http://ungainlyy.com/raw-style</guid>
+      <guid>http://ungainlyy.com/ungainly-style</guid>
       <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
     </item>
     
