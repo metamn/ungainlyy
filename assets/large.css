@@ -12,9 +12,35 @@ h2 { font-size:3.42308em; padding:1.38338em 0; }
 h3 { font-size:2.11538em; padding:1.44305em 0; }
 
 
+/* Header
+*/
+
+#info {
+  width: 100%;
+  position: absolute;
+}
+#info #menu {
+  position: fixed;
+}
+
+
+
+/* Content
+*/
 
 #content, #message {
+  position: relative;
   top: 17em;
+  right: 1%;  
+  width: 50%;
+  z-index: 1;  
+}
+#item .info {
+  top: 5em;
+  left: -7em;
+  width: 10em;
+  position: relative;
+  z-index: 2;
 }
 
 

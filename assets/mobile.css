@@ -10,4 +10,26 @@ h2 { font-size:1.61538em; padding:1.30936em 0; }
 h3 { font-size:1.30769em; padding:1.28686em 0; }
 
 
+#info #pages {
+  margin-top: 2.5em;
+  width: 100%;
+}
+
+#info #pages h3 {
+  float: left;
+  margin-right: 2%;
+}
+
+
+#content, #message {
+  float: left;
+  width: 100%;
+}
+#item .info {
+  width: 100%;
+}
+#content #just-text {
+  margin-left: 1%;
+}
+
 

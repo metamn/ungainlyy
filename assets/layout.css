@@ -39,16 +39,11 @@ body {
 /* Header
 */
 
-#info {
-  width: 100%;
-  position: absolute;
-}
 #info #logo h1 {
  padding-left: .312em;
 }
 #info #menu {
   padding: 1.25em;
-  position: fixed;
 }
 #info #menu li {
   margin-right: .625em;
@@ -66,22 +61,11 @@ body {
 /* Content
 */
 
-#content, #message {
-  position: relative;
-  right: 1%;  
-  width: 50%;
-  z-index: 1;  
-}
 #item {
   margin-bottom: 2.5em;
 }
 #item .info {
   padding: .625em;
-  top: 5em;
-  left: -7em;
-  width: 10em;
-  position: relative;
-  z-index: 2;
 }
 #item .info h3 {
   padding: 0;
