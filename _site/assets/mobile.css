@@ -1,3 +1,8 @@
+.desktop {
+  display: none;
+}
+
+
 #container {
   width: 95%;
   margin: 0 auto;
@@ -10,15 +15,25 @@ h2 { font-size:1.61538em; padding:1.30936em 0; }
 h3 { font-size:1.30769em; padding:1.28686em 0; }
 
 
+/* Header
+*/
+
+#info #collections h2 {
+  padding: .312em;
+}
 #info #pages {
-  margin-top: 2.5em;
+  margin: 2.5em 0;
   width: 100%;
 }
-
 #info #pages h3 {
   float: left;
   margin-right: 2%;
 }
+
+
+
+/* Content
+*/
 
 
 #content, #message {
@@ -26,10 +41,12 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
   width: 100%;
 }
 #item .info {
-  width: 100%;
+  width: auto;
 }
 #content #just-text {
   margin-left: 1%;
 }
-
+.content {
+  padding: .625em;
+}
 

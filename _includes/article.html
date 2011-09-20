@@ -15,9 +15,11 @@
         </div>
       {% endfor %}
     </div>
-    {{ post.content }}
+    <div class="content">
+      {{ post.content }}
+    </div>
   {% else %}
-    <div id="just-text">
+    <div id="just-text" class="content">
       {{ post.content }}
     </div>
   {% endif %}
