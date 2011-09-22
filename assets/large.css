@@ -1,3 +1,7 @@
+.mobile {
+  display: none;
+}
+
 #container {
   max-width: 120em;  /* 80x16px=1920px */
 }
