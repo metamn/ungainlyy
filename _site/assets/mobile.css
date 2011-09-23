@@ -49,6 +49,7 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 }
 #content #just-text {
   margin-left: 1%;
+  font-size: 100%;
 }
 .content {
   padding: .625em;
@@ -64,7 +65,7 @@ article header {
 }
 
 table {
-  width: auto;
+  width: 98%;
 }
 
 
