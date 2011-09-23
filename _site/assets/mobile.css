@@ -101,6 +101,7 @@ table {
 .wide #logo-image img {
   width: 60%;
   height: auto;
+  margin: 0;
 }
 .wide ul.inline-list li.message {
   display: block;
