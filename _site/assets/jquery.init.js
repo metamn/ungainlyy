@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
   function singleClick(e) {
     var url = jQuery(".wide #posts li").first().html();
     jQuery(".wide #posts li").each(function(index) {
-      if (jQuery(this).attr('class') == jQuery("#background-image img").attr('rel')) {
+      if (jQuery(this).attr('class') == jQuery("#background-image").attr('rel')) {
         if (jQuery(this).next().html()) {
           url = jQuery(this).next().html();
         }        
