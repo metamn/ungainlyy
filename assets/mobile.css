@@ -52,7 +52,7 @@ body {
 #item .info {
   width: auto;
 }
-#item .info a {
+#item .info h3 a {
   text-decoration: none;
 }
 #content #just-text {
