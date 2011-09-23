@@ -71,6 +71,9 @@ article.page {
 article header {
   display: block !important;
 }
+article #images a {
+  text-decoration: none;
+}
 
 table {
   width: 98%;
