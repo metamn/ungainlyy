@@ -73,12 +73,9 @@ table {
 /* Portfolio
 */
 
-.wide #background-image {
+.wide #background-image, .wide #background-image img {
   width: auto;
   height: auto;
-  max-width: 320px;
-  max-height: 480px;
-  margin: 2% 5% 0;
 }
 .wide #logo {
   position: relative;
