@@ -1,0 +1,33 @@
+<div id="divider" class="desktop">
+  {% capture klass %}
+    {% for category in page.categories %}
+      {{ category | append:"-triangle "}}
+    {% endfor %}
+  {% endcapture %}
+  <div id="{{ klass }}" class="triangle triangle-top {{ klass }}"></div>
+</div>
+
+<header id="info" class="block">
+  <nav id="menu" class="block desktop">
+    <h3 class="hidden">Top menu</h3>
+    <ul class="cart inline-list right">
+      <li>Monthly rate: $4,000</li>
+    </ul>
+    
+    <ul class="menu inline-list desktop">
+      <li><a class="home" href="/">Home</a></li>            
+    </ul>     
+  </nav>
+  
+  <hgroup id="logo" class="block desktop">
+    <h1><a href="/">The Ungainly Experienc</a></h1>
+  </hgroup>
+
+  <div id="logo-image" class="mobile">
+    <a href="/"><img src="/assets/logo-ungainly.png" /></a>
+  </div>
+  
+  <div class="desktop">
+    {% include menu.html %}      
+  </div>
+</header>

@@ -1,114 +1,24 @@
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
+---
+---
 
-    <title>ungainly...</title>
-    
-    <link href="/assets/base.css" rel="stylesheet">    
-    <link href="/assets/layout.css" rel="stylesheet">
-    <link href="/assets/theme.css" rel="stylesheet">    
-    
-    <link rel="stylesheet" href="/assets/mobile.css" media="screen and (max-width: 640px)" />
-    <link rel="stylesheet" href="/assets/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
-    <link rel="stylesheet" href="/assets/wide.css" media="screen and (min-width: 1025px) and (max-width: 1399px)" /> 
-    <link rel="stylesheet" href="/assets/large.css" media="screen and (min-width: 1400px)" /> 
- 
-    <link rel="stylesheet" href="/assets/long.css" media="screen and (device-aspect-ratio: 4/3)" />
-    <link rel="stylesheet" href="/assets/long.css" media="screen and (device-aspect-ratio: 5/4)" />
-    
-    <!--[if IE]>
-    <link href="/assets/ie.css" media="all" type="text/css" rel="stylesheet">  
-	  <![endif]-->
-	  
-	  <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:regular,italic,bold' rel='stylesheet' type='text/css'>
-	  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-
-    <script type="text/javascript" src="/assets/modernizr.custom.30919.js"></script>
-      
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/jquery.init.js"></script>
-    
-    <!--<script type="text/javascript" src="/assets/jquery.grid.js"></script>-->
-  </head>
+{% include head.html %}
   
   <body>
     <div class="container">
-      <div id="divider" class="desktop">
-        <div id="{{ klass }}" class="triangle triangle-top {{ klass }}"></div>
+      <div class="desktop">
+        {% include header.html %}
       </div>
-    
-      <header id="info" class="block">
-        <nav id="menu" class="block desktop">
-          <h3 class="hidden">Top menu</h3>
-          <ul class="cart inline-list right">
-            <li>Monthly rate: $4,000</li>
-          </ul>
-          
-          <ul class="menu inline-list dekstop">
-            <li><a class="home" href="/">Home</a></li>            
-          </ul>     
-        </nav>
-        
-        <hgroup id="logo" class="block desktop">
-          <h1><a href="/">The Ungainly Experienc</a></h1>
-        </hgroup>
-      
-        
-        <nav id="collections" class="block desktop">
-          <h3 class="hidden">Category menu</h3>
-          <h2><a href="/services" class="services">Web services</a></h2>
-          <h2><a href="/portfolio" class="portfolio">Web design / Clients</a></h2>
-          <h2><a href="/sale" class="sale">On Sale</a></h2>
-          <h2><a href="/feedback" class="feedback">Feedback</a></h2>
-        </nav>
-        
-        <nav id="pages" class="block desktop">
-          <h3 class="hidden">Page menu</h3>
-          <h3><a href="/about">About</a></h3>
-          <h3><a href="http://ungainlyy.tumblr.com">Blog</a></h3>
-          <h3><a href="/contact">Contact</a></h3>
-        </nav>      
-      </header>
 
       <section id="content" class="content right">
-        Ooops, something went wrong ...
+        <p>Ooops, something went wrong ...</p>
       </section>
       
       
-      <div id="logo-image" class="mobile">
-        <a href="/"><img src="/assets/logo-ungainly.png" /></a>
-      </div>
-        
-      <header id="info" class="block mobile">                
-        <nav id="collections" class="block">
-          <h3 class="hidden">Category menu</h3>
-          <h2><a href="/services" class="services">Web services</a></h2>
-          <h2><a href="/portfolio" class="portfolio">Web design / Clients</a></h2>
-          <h2><a href="/sale" class="sale">On Sale</a></h2>
-          <h2><a href="/feedback" class="feedback">Feedback</a></h2>
-        </nav>
-        
-        <nav id="pages" class="block">
-          <h3 class="hidden">Page menu</h3>
-          <h3><a href="/about">About</a></h3>
-          <h3><a href="http://ungainlyy.tumblr.com">Blog</a></h3>
-          <h3><a href="/contact">Contact</a></h3>
-        </nav>      
-      </header>
+      {% include header-mobile.html %}
       
     </div>    
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-24490107-3']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>    
+    
+    {% include ga.html %}
   </body>
 </html>
 
