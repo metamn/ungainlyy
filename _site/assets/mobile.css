@@ -21,16 +21,12 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 /* Header
 */
 
-#info #collections h2 a {
+#info #collections a {
   padding: .156em;
 }
 #info #pages {
   margin: 2.5em 0;
-  width: 100%;
-}
-#info #pages h3 {
-  float: left;
-  margin-right: 2%;
+  width: auto;
 }
 
 #logo-image img {
@@ -58,5 +54,41 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
   padding: .625em;
   background: #a39b87;
   opacity: .85;
+}
+
+article.page {
+  margin-top: 0;
+}
+article header {
+  display: block !important;
+}
+
+table {
+  width: auto;
+}
+
+
+
+/* Portfolio
+*/
+
+.wide #background-image {
+  width: auto;
+  height: auto;
+  margin: 2% 5% 0;
+}
+.wide #logo ul.inline-list {
+  margin-left: 0;
+  text-align: center;
+}
+.wide #logo ul.inline-list li.desktop {
+  display: none;
+}
+.wide #logo-image img {
+  width: 60%;
+  height: auto;
+}
+.wide ul.inline-list li.message {
+  display: block;
 }
 
