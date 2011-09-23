@@ -10,9 +10,12 @@
       {% for image in post.images limit: {{limit}} %}
         <div id="image">
           <a title="Visit {{ image.title }} at {{ image.url }}" href="{{ image.url }}">
-            <img class="{{ post.categories.first }}-border" title="Visit {{ image.title }} at {{ image.url }}" src="/assets/{{ image.src }}">
+            <span class="img-placeholder"></span>
+            <noscript data-mobilesrc="/assets/small-{{ image.src }}" data-fullsrc="/assets/{{ image.src }}" data-alttext="{{ image.title }}" class="responsivize">
+              <img src="/assets/{{ image.src }}">            
+            </noscript>
           </a>
-        </div>
+        </div>        
       {% endfor %}
     </div>
     <div class="content">

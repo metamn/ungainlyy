@@ -31,6 +31,7 @@
     <script type="text/javascript" src="/assets/modernizr.custom.30919.js"></script>
       
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/jquery.responsive-images.js"></script>
     <script type="text/javascript" src="/assets/jquery.init.js"></script>
     
     <!--<script type="text/javascript" src="/assets/jquery.grid.js"></script>-->
@@ -42,8 +43,11 @@
           
       <section id="screenshots"> 
         <header><h3 class="hidden">Screenshoots</h3></header>
-        <div id="background-image">
-          <img class="link" title="" rel="http://clair.ro" src="/assets/clair.png"/>
+        <div id="background-image" class="link">
+          <span class="img-placeholder"></span>
+          <noscript data-mobilesrc="/assets/small-clair.png" data-fullsrc="/assets/clair.png" data-alttext="" class="responsivize">
+            <img title="" rel="http://clair.ro" src="/assets/clair.png">            
+          </noscript>
         </div>
         
         <ul id="posts" class="hidden">
