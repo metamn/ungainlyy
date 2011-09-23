@@ -29,7 +29,7 @@ jQuery(document).ready(function(){
     }, 300);
   }).dblclick(function(e) {
       jQuery(this).data('double', 2);      
-      window.location.href = jQuery(this).attr('rel');
+      window.location.href = jQuery(".wide #background-image").attr('rel');
   });
   
 
