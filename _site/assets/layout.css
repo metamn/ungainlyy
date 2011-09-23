@@ -32,6 +32,10 @@ h1 {
 body {
   font-family: 'Old Standard TT', arial, serif;
 }
+.stars {
+  font-size: larger;
+  margin-left: 40%;
+}
 
 
 

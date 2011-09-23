@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en"> - ungainly...</title>
 	<link type="application/atom+xml" href="http://ungainlyy.com/feed/" rel="self"/>
  	<link type="text" href="http://ungainlyy.com" rel="alternate"/>
-	<updated>2011-09-23T13:14:54+03:00</updated>
+	<updated>2011-09-23T16:57:17+03:00</updated>
 	<id>http://ungainlyy.com</id>
 	<author>
 		<name>ungainly...</name>
@@ -53,6 +53,14 @@
 	</entry>
 	
 	<entry>
+		<title>Design And Development</title>
+		<link href="http://ungainlyy.com/design-and-development"/>
+		<updated>2011-09-15T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/design-and-development</id>
+		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+	</entry>
+	
+	<entry>
 		<title>Clean Feel</title>
 		<link href="http://ungainlyy.com/clean-feel"/>
 		<updated>2011-09-14T00:00:00+03:00</updated>
@@ -65,14 +73,6 @@
 		<link href="http://ungainlyy.com/I-like-theme-simplicity"/>
 		<updated>2011-09-14T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/I-like-theme-simplicity</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
-	</entry>
-	
-	<entry>
-		<title>Style, ungainly.</title>
-		<link href="http://ungainlyy.com/ungainly-style"/>
-		<updated>2011-09-13T00:00:00+03:00</updated>
-		<id>http://http://ungainlyy.com/ungainly-style</id>
 		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
 	</entry>
 	
