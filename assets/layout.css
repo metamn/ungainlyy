@@ -160,4 +160,6 @@ article.page {
   position: fixed;
 }
 
-
+#contact {
+  width: 60%;
+}
