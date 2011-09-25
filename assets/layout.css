@@ -76,6 +76,10 @@ body {
   font-weight: bold;
 }
 
+#item #images #image {
+  margin-bottom: 1.25em;
+}
+
 #content section.collection > header {
   display: none;
 }
