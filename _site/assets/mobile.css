@@ -76,9 +76,7 @@ article #images a {
 }
 
 
-table {
-  width: 90%;
-}
+
 table td, table th {
   padding: 0 1.5%;
 }
@@ -94,6 +92,12 @@ table td, table th {
   width: auto;
   height: auto;
 }
+.wide #background-image {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;;  
+}
+
 .wide #logo {
   position: relative;
 }
