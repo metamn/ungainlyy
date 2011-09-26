@@ -76,7 +76,7 @@ article #images a {
 }
 
 table {
-  width: 98%;
+  width: 90%;
 }
 
 
@@ -84,6 +84,9 @@ table {
 /* Portfolio
 */
 
+.wide #background-image {
+  margin: 2% 0 0;
+}
 .wide #background-image, .wide #background-image img {
   width: auto;
   height: auto;
