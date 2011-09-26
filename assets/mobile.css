@@ -78,10 +78,9 @@ article #images a {
 
 table {
   width: 90%;
-  margin-right: 5%;
 }
 table td, table th {
-  padding: 0;
+  padding: 0 1.5%;
 }
 
 
@@ -112,5 +111,8 @@ table td, table th {
 }
 .wide ul.inline-list li.message {
   display: block;
+}
+.wide ul.inline-list li.message span.mobile {
+  display: inline-block !important;
 }
 
