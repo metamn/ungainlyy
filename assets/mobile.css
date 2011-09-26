@@ -75,10 +75,14 @@ article #images a {
   text-decoration: none;
 }
 
+
 table {
   width: 90%;
+  margin-right: 5%;
 }
-
+table td, table th {
+  padding: 0;
+}
 
 
 /* Portfolio
