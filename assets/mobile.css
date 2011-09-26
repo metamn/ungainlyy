@@ -109,6 +109,8 @@ table td, table th {
 }
 .wide ul.inline-list li.message {
   display: block;
+  font-size: smaller;
+  padding-bottom: 1%;
 }
 .wide ul.inline-list li.message span.mobile {
   display: inline-block !important;
