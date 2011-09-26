@@ -68,9 +68,6 @@ body {
 article.page {
   margin-top: 0;
 }
-article header {
-  display: block !important;
-}
 article #images a {
   text-decoration: none;
 }
@@ -78,13 +75,16 @@ article #images a {
 
 
 table td, table th {
-  padding: 0 1.5%;
+  padding: 2.5% 1.5%;
 }
 
 
 /* Portfolio
 */
 
+.wide #screenshots .link {
+  text-decoration: none;
+}
 .wide #background-image {
   margin: 2% 0 0;
 }
@@ -92,12 +92,6 @@ table td, table th {
   width: auto;
   height: auto;
 }
-.wide #background-image {
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;;  
-}
-
 .wide #logo {
   position: relative;
 }
