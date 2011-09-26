@@ -61,7 +61,8 @@ body {
 }
 .content {
   padding: .625em;
-  background: red;
+  background: #a39b87;
+  opacity: .85;
 }
 
 article.page {
