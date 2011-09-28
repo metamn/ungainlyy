@@ -6,8 +6,8 @@
 }
 
 
-#container {
-  width: 95%;
+#container, .contract #container {
+  width: 95% !important;
   margin: 0 auto;
 }
 
