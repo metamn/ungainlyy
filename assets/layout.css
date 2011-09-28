@@ -90,6 +90,9 @@ body {
 }
 
 
+/* About
+*/
+
 
 table {
   margin: 1.25em 0;
@@ -104,6 +107,11 @@ td.first {
 }
 
 
+
+/* Other
+*/
+
+
 article.page {
   margin-top: 5em;
 }
@@ -112,6 +120,40 @@ article.page {
   font-style: italic;
   font-weight: normal;
 }
+
+
+
+/* Contract
+*/
+
+.contract {
+  background: white; 
+  color: #000;
+  text-align: center;
+}
+.contract #container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.contract #body {
+  margin: 2.5em 0; 
+}
+.contract ul {
+  list-style: none;
+}
+.contract ul li p {   
+  text-align: justify;
+}
+.contract ul.inside {
+  list-style: disc;
+}
+.contract ul.inside li {
+  text-align: left;
+}
+.contract dd {
+  padding: 1.25em 0;
+}
+
 
 
 

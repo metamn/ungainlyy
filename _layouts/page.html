@@ -3,7 +3,7 @@ layout: default
 ---
 
 <header class="hidden"><h6>The {{ page.title }} page</h6></header>
-<article id="{{ page.title }}" class="page">
+<article id="{{ page.title | downcase }}" class="page">
   <header class="mobile"><h3>{{ page.title }}</h3></header>
   <div class="content">
     {{ content }}
