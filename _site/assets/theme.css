@@ -64,6 +64,10 @@ a, a:visited, .link {
   opacity: .85;
 }
 
+#info #collections a {
+  box-shadow: 5px 5px 5px #888;
+}
+
 
 /* Content
 */

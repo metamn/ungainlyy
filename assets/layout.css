@@ -47,7 +47,7 @@ body {
  padding-left: .312em;
 }
 #info #menu {
-  padding: 1.25em;
+  padding: .612em 1.25em;
 }
 #info #menu li {
   margin-right: .625em;
@@ -59,6 +59,9 @@ body {
   margin-top: 7.5em;
   width: 45%;
   margin-right: 5%;
+}
+#info #collections a {
+  padding: 0 .1em;
 }
 
 
