@@ -61,7 +61,7 @@ body {
   margin-right: 5%;
 }
 #info #collections a {
-  padding: 0 .1em;
+  padding: .1em .1em 0;
 }
 
 

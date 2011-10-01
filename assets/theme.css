@@ -66,6 +66,8 @@ a, a:visited, .link {
 
 #info #collections a {
   box-shadow: 5px 5px 5px #888;
+  -moz-box-shadow: 5px 5px 5px #888;
+  -webkit-box-shadow: 5px 5px 5px #888;
 }
 
 
