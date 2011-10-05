@@ -73,6 +73,7 @@ body {
 }
 #item .info {
   padding: .625em;
+  display: block;
 }
 #item .info h3 {
   padding: 0;
