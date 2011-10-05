@@ -8,7 +8,7 @@ layout: default
 
 {% if page.links.size > 0 %}
   <nav id="links" class="content block">
-    <header><h2>Read more about {{ page.title }}</h2></header>
+    <header><h2>Read more about {{ page.title }} <em>trends</em></h2></header>
     <ol>
     {% for link in page.links %}
       <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
