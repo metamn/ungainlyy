@@ -6,6 +6,18 @@ layout: default
 {% assign post = page %}
 {% include article.html %}
 
+{% if page.links.size > 0 %}
+  <nav id="links" class="content block">
+    <header><h2>Read more about {{ page.title }}</h2></header>
+    <ol>
+    {% for link in page.links %}
+      <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+    </ol>
+  </nav>
+{% endif %}
+
+
 {% assign category = page.categories.first %}
 {% assign current = page.title %}
 {% include similar.html %}
