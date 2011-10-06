@@ -125,6 +125,18 @@ article.page {
   font-weight: normal;
 }
 
+blockquote {
+  padding: .625em;
+  font-size: larger;
+}
+
+
+blockquote + em {
+  border-top: 1px dashed;
+  padding-top: .312em;
+  margin-top: .625em;
+  display: inline-block;
+}
 
 
 /* Contract

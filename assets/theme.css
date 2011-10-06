@@ -54,6 +54,10 @@ a, a:visited, .link {
   border-color: transparent transparent #eee;
 }
 
+#feedback blockquote, .feedback blockquote {
+  background: none;
+}
+
 
 
 /* Header
@@ -86,7 +90,9 @@ td {
   border-bottom: 1px dotted #ccc;
 }
 
-
+blockquote {
+  background: #f6f6f6;
+}
 
 
 
