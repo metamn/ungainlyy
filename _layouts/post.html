@@ -4,7 +4,7 @@ layout: default
 
 <header class="hidden"><h6>The {{ page.title }} page</h6></header>
 {% assign post = page %}
-{% assign klass = page.categories.first %}
+{% assign klass = 'single' %}
 {% include article.html %}
 
 {% if page.links.size > 0 %}

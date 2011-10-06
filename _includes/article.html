@@ -1,4 +1,4 @@
-<article id="item" class="block">
+<article id="item" class="block {{ klass }}">
   <header class="info">
     <h3><a title="Permalink to {{ post.title }}" href="{{ post.url ]}}">
       {% if post.categories.first == 'feedback' %}<span class="quote">"{% endif %}{{ post.title }}{% if post.categories.first == 'feedback' %}"</span>{% endif %}
@@ -22,7 +22,7 @@
       {{ post.content }}
     </div>
   {% else %}
-    <div id="just-text" class="{{ klass }} content">
+    <div id="just-text" class="content">
       {{ post.content }}
     </div>
   {% endif %}

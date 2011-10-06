@@ -72,6 +72,9 @@ article #images a {
   text-decoration: none;
 }
 
+blockquote {
+  background: none;
+}
 
 
 table td, table th {

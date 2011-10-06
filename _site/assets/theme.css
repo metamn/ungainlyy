@@ -54,7 +54,7 @@ a, a:visited, .link {
   border-color: transparent transparent #eee;
 }
 
-#feedback blockquote, .feedback blockquote {
+#feedback blockquote, .single blockquote {
   background: none;
 }
 
