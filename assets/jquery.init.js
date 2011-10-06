@@ -6,10 +6,7 @@ jQuery(document).ready(function(){
 
   
   jQuery(".portfolio nav").click(function(e) {
-    if (jQuery(this).attr("id") == "previous") {
-    } else {
-      singleClick(e);  
-    }
+    singleClick(e, jQuery(this).attr("id"));
   });
    
   // Portfolio arrows
@@ -21,18 +18,34 @@ jQuery(document).ready(function(){
       jQuery(this).fadeTo('slow', .1);
     }
   );
-
-  // Single click on portfolio
-  function singleClick(e) {
-    var url = jQuery(".portfolio #posts li").first().html();
+  
+  // Navigate prev and next
+  function navigate(direction) {
+    if (direction == "next") {
+      var url = jQuery(".portfolio #posts li").first().html();
+    } else {
+      var url = jQuery(".portfolio #posts li").last().html();
+    }
+    
     jQuery(".portfolio #posts li").each(function(index) {
       if (jQuery(this).attr('class') == jQuery("#background-image").attr('rel')) {
-        if (jQuery(this).next().html()) {
-          url = jQuery(this).next().html();
-        }        
+        if (direction == "next") {
+          if (jQuery(this).next().html()) {
+            url = jQuery(this).next().html();
+          }
+        } else {
+          if (jQuery(this).prev().html()) {
+            url = jQuery(this).prev().html();
+          }
+        }                
       };
     });
-    window.location.href = url;
+    return url;
+  }
+
+  // Single click on portfolio
+  function singleClick(e, direction) {
+    window.location.href = navigate(direction);
   }
   
   // Click and double click on portfolio items
@@ -43,7 +56,7 @@ jQuery(document).ready(function(){
         if (dblclick > 0) {
             jQuery(that).data('double', dblclick-1);
         } else {
-          singleClick.call(that, e);
+          singleClick.call(that, e, "next");
         }
     }, 300);
   }).dblclick(function(e) {
