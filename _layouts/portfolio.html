@@ -4,7 +4,7 @@
   <body class="portfolio">
     <div id="container">
       
-      <nav id="previous">
+      <nav id="previous" class="desktop">
         <h2><</h2>
       </nav>
           
@@ -24,7 +24,7 @@
         </ul>        
       </section>
 
-      <nav id="next">
+      <nav id="next" class="desktop">
         <h2>></h2>
       </nav>
             
@@ -38,10 +38,12 @@
             </div>
           </li>
           <li class="message">
+            <nav id="previous" class="mobile"><</nav>
             <em>
               <span class="desktop">Click for next.Double click to view live</span>
               <span class="mobile">Click image for next. <a title="{{ page.title }}" href="{{ page.link }}">Click here to view live</a></span>
             </em>
+            <nav id="next" class="mobile">></nav>
           </li>            
         </ul>     
       </header>
