@@ -24,9 +24,10 @@ jQuery(document).ready(function(){
 
   // Single click on portfolio
   function singleClick(e) {
-    var url = jQuery(".wide #posts li").first().html();
-    jQuery(".wide #posts li").each(function(index) {
+    var url = jQuery(".portfolio #posts li").first().html();
+    jQuery(".portfolio #posts li").each(function(index) {
       if (jQuery(this).attr('class') == jQuery("#background-image").attr('rel')) {
+        alert(jQuery("#background-image").attr('rel'));
         if (jQuery(this).next().html()) {
           url = jQuery(this).next().html();
         }        
@@ -36,7 +37,7 @@ jQuery(document).ready(function(){
   }
   
   // Click and double click on portfolio items
-  jQuery(".wide #background-image img").click(function(e) {
+  jQuery(".portfolio #background-image img").click(function(e) {
     var that = this;
     setTimeout(function() {
         var dblclick = parseInt(jQuery(that).data('double'), 10);
@@ -48,7 +49,7 @@ jQuery(document).ready(function(){
     }, 300);
   }).dblclick(function(e) {
       jQuery(this).data('double', 2);      
-      window.location.href = jQuery(".wide #background-image").attr('rel');
+      window.location.href = jQuery(".portfolio #background-image").attr('rel');
   });
   
 
