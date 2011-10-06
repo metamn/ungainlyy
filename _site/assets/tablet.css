@@ -43,5 +43,19 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 }
 
 
+/* Portfolio
+*/
+
+.portfolio #next {
+  right: .1em;
+}
+.portfolio #previous {
+  left: .1em;
+}
+
+.portfolio #next, .portfolio #previous {
+  top: 35%;
+}
+
 
 

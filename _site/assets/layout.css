@@ -174,30 +174,44 @@ article.page {
 /* Portfolio
 */
 
-.wide #background-image {
+.portfolio #background-image {
   width: 90%;
   height: 90%;
   margin: 2% 5% 0;
 }
-.wide #background-image img {
+.portfolio #background-image img {
   width: 100%;
   height: 100%;
 }
-.wide #navigation img {
+.portfolio #navigation img {
   display: none;
 }
 
-.wide #logo {
+.portfolio #logo {
   position: fixed;  
   bottom: 0;
 }
-.wide #logo ul.inline-list {
+.portfolio #logo ul.inline-list {
   margin-left: 38%;
 }
-.wide #logo h1 {
+.portfolio #logo h1 {
   font-size: 2.5em;
   padding: .312em;
 }
+
+.portfolio #previous, .portfolio #next {
+  position: absolute;
+  width: 2.5em;
+  height: auto;
+  cursor: pointer;
+}
+.portfolio #previous {
+  left: 0;
+}
+.portfolio #next {
+  right: 1%;
+}
+
 
 
 /* Other

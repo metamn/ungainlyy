@@ -82,37 +82,41 @@ table td, table th {
 /* Portfolio
 */
 
-.wide #screenshots .link {
+.portfolio #screenshots .link {
   text-decoration: none;
 }
-.wide #background-image {
+.portfolio #background-image {
   margin: 2% 0 0;
 }
-.wide #background-image, .wide #background-image img {
+.portfolio #background-image, .portfolio #background-image img {
   width: auto;
   height: auto;
 }
-.wide #logo {
+.portfolio #logo {
   position: relative;
 }
-.wide #logo ul.inline-list {
+.portfolio #logo ul.inline-list {
   margin-left: 0;
   text-align: center;
 }
-.wide #logo ul.inline-list li.desktop {
+.portfolio #logo ul.inline-list li.desktop {
   display: none;
 }
-.wide #logo-image img {
+.portfolio #logo-image img {
   width: 60%;
   height: auto;
   margin: 0;
 }
-.wide ul.inline-list li.message {
+.portfolio ul.inline-list li.message {
   display: block;
   font-size: smaller;
   padding-bottom: 1%;
 }
-.wide ul.inline-list li.message span.mobile {
+.portfolio ul.inline-list li.message span.mobile {
   display: inline-block !important;
+}
+
+.portfolio #next, .portfolio #previous {
+  bottom: 0;
 }
 

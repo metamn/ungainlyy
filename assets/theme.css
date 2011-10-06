@@ -93,16 +93,20 @@ td {
 /* Portfolio
 */
 
-body.wide {
-  background: #A39B87;
+body.portfolio {
+  background: #A39B87 !important;
 }
-.wide #background-image {
+.portfolio #background-image {
   -moz-box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;
   -webkit-box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;  
 }
-.wide #logo {
+.portfolio #logo {
   background: #A39B87;
   opacity: .85;
+}
+
+.portfolio nav {
+  opacity: .1;
 }
 

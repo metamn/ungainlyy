@@ -3,6 +3,34 @@ jQuery.noConflict();
 // Use jQuery via jQuery(...)
 jQuery(document).ready(function(){
 
+
+  // Portfolio arrows click
+  jQuery(".portfolio nav").click(function(e) {
+    if (jQuery(this).attr("id") == "previous") {
+      var url = jQuery(".wide #posts li").first().html();
+      jQuery(".wide #posts li").each(function(index) {
+        if (jQuery(this).attr('class') == jQuery("#background-image").attr('rel')) {
+          if (jQuery(this).prev().html()) {
+            url = jQuery(this).prev().html();
+          }        
+        };
+      });
+    window.location.href = url;
+    } else {
+      singleClick.call(this, e);
+    }
+  });
+   
+  // Portfolio arrows
+  jQuery(".portfolio nav").hover (
+    function () {
+      jQuery(this).fadeTo('slow', 1);
+    },
+    function () {
+      jQuery(this).fadeTo('slow', .1);
+    }
+  );
+
   // Single click on portfolio
   function singleClick(e) {
     var url = jQuery(".wide #posts li").first().html();
