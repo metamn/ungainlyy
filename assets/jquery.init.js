@@ -27,7 +27,6 @@ jQuery(document).ready(function(){
     var url = jQuery(".portfolio #posts li").first().html();
     jQuery(".portfolio #posts li").each(function(index) {
       if (jQuery(this).attr('class') == jQuery("#background-image").attr('rel')) {
-        alert(jQuery("#background-image").attr('rel'));
         if (jQuery(this).next().html()) {
           url = jQuery(this).next().html();
         }        
