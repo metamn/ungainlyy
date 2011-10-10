@@ -78,7 +78,7 @@ a, a:visited, .link {
 /* Content
 */
 
-#item .info {
+#item .info, .highlight {
   background: #D6D19C;
   opacity: .9;
 }
@@ -115,4 +115,6 @@ body.portfolio {
 .portfolio nav {
   opacity: .1;
 }
+
+
 
