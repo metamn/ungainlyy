@@ -11,7 +11,9 @@
     
     <link href="/assets/base.css" rel="stylesheet">    
     <link href="/assets/layout.css" rel="stylesheet">
-    <link href="/assets/theme.css" rel="stylesheet">    
+    <link href="/assets/drop-shadows.css" rel="stylesheet"> 
+    <link href="/assets/theme.css" rel="stylesheet">   
+     
     
     <link rel="stylesheet" href="/assets/mobile.css" media="screen and (max-width: 640px)" />
     <link rel="stylesheet" href="/assets/tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
@@ -73,10 +75,10 @@
   <div class="desktop">
     <nav id="collections" class="block">
   <h3 class="hidden">Category menu</h3>
-  <h2><a href="/services" class="services">Web services</a></h2>
-  <h2><a href="/portfolio" class="portfolio">Web design portfolio</a></h2>
-  <h2><a href="/sale" class="sale">On Sale</a></h2>
-  <h2><a href="/feedback" class="feedback">Feedback</a></h2>
+    <h3 class="drop-shadow lifted rotated"><a href="/services" class="services">Web services</a></h3>
+    <h3 class="drop-shadow lifted rotated"><a href="/portfolio" class="portfolio">Web design portfolio</a></h3>
+    <h3 class="drop-shadow lifted rotated"><a href="/sale" class="sale">On Sale</a></h3>
+    <h3 class="drop-shadow lifted rotated"><a href="/feedback" class="feedback">Feedback</a></h3>
 </nav>
 
 <nav id="pages" class="content block">
@@ -95,7 +97,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="portfolio" class="info">
     <h3><a title="Permalink to Scrol" href="/scrol">
       Scrol
     </a></h3>
@@ -107,7 +109,7 @@
         <div id="image">
           <a title="Visit Scrol at /scrol" href="/scrol">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-scrol-large.png" data-fullsrc="/assets/scrol-large.png" data-alttext="Scrol" class="responsivize">
+            <noscript original-class="portfolio" data-mobilesrc="/assets/small-scrol-large.png" data-fullsrc="/assets/scrol-large.png" data-alttext="Scrol" class="responsivize">
               <img src="/assets/scrol-large.png">            
             </noscript>
           </a>
@@ -128,7 +130,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="feedback" class="info">
     <h3><a title="Permalink to Bringing Us In Top Google Search Results" href="/bringing-us-in-top-google-search-results">
       <span class="quote">"Bringing Us In Top Google Search Results"</span>
     </a></h3>
@@ -152,7 +154,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="feedback" class="info">
     <h3><a title="Permalink to Impressed With Your Design Skills" href="/impressed-with-your-design-skills">
       <span class="quote">"Impressed With Your Design Skills"</span>
     </a></h3>
@@ -178,7 +180,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="portfolio" class="info">
     <h3><a title="Permalink to Smuff" href="/smuff">
       Smuff
     </a></h3>
@@ -190,7 +192,7 @@
         <div id="image">
           <a title="Visit Smuff at /smuff" href="/smuff">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-smuff.png" data-fullsrc="/assets/smuff.png" data-alttext="Smuff" class="responsivize">
+            <noscript original-class="portfolio" data-mobilesrc="/assets/small-smuff.png" data-fullsrc="/assets/smuff.png" data-alttext="Smuff" class="responsivize">
               <img src="/assets/smuff.png">            
             </noscript>
           </a>
@@ -213,7 +215,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="portfolio" class="info">
     <h3><a title="Permalink to Languagelab" href="/languagelab">
       Languagelab
     </a></h3>
@@ -225,7 +227,7 @@
         <div id="image">
           <a title="Visit Languagelab at /languagelab" href="/languagelab">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-languagelab.png" data-fullsrc="/assets/languagelab.png" data-alttext="Languagelab" class="responsivize">
+            <noscript original-class="portfolio" data-mobilesrc="/assets/small-languagelab.png" data-fullsrc="/assets/languagelab.png" data-alttext="Languagelab" class="responsivize">
               <img src="/assets/languagelab.png">            
             </noscript>
           </a>
@@ -247,7 +249,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="services" class="info">
     <h3><a title="Permalink to Design And Development" href="/design-and-development">
       Design And Development
     </a></h3>
@@ -297,7 +299,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="feedback" class="info">
     <h3><a title="Permalink to Clean Feel" href="/clean-feel">
       <span class="quote">"Clean Feel"</span>
     </a></h3>
@@ -326,7 +328,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="feedback" class="info">
     <h3><a title="Permalink to I Like Theme Simplicity" href="/I-like-theme-simplicity">
       <span class="quote">"I Like Theme Simplicity"</span>
     </a></h3>
@@ -351,7 +353,7 @@
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="services" class="info">
     <h3><a title="Permalink to Split (A/B) testing" href="/split-testing">
       Split (A/B) testing
     </a></h3>
@@ -363,7 +365,7 @@
         <div id="image">
           <a title="Visit Split testing at http://37signals.com/svn/posts/2991-behind-the-scenes-ab-testing-part-3-final" href="http://37signals.com/svn/posts/2991-behind-the-scenes-ab-testing-part-3-final">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-split-testing.png" data-fullsrc="/assets/split-testing.png" data-alttext="Split testing" class="responsivize">
+            <noscript original-class="services" data-mobilesrc="/assets/small-split-testing.png" data-fullsrc="/assets/split-testing.png" data-alttext="Split testing" class="responsivize">
               <img src="/assets/split-testing.png">            
             </noscript>
           </a>
@@ -408,7 +410,7 @@ form by <a href="http://www.flickr.com/photos/doos/5539633208/">Rob Enslin</a>. 
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="services" class="info">
     <h3><a title="Permalink to Responsive Web Design" href="/responsive-web-design">
       Responsive Web Design
     </a></h3>
@@ -420,7 +422,7 @@ form by <a href="http://www.flickr.com/photos/doos/5539633208/">Rob Enslin</a>. 
         <div id="image">
           <a title="Visit Responsive Web Design at http://www.alistapart.com/articles/responsive-web-design/" href="http://www.alistapart.com/articles/responsive-web-design/">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-responsive.png" data-fullsrc="/assets/responsive.png" data-alttext="Responsive Web Design" class="responsivize">
+            <noscript original-class="services" data-mobilesrc="/assets/small-responsive.png" data-fullsrc="/assets/responsive.png" data-alttext="Responsive Web Design" class="responsivize">
               <img src="/assets/responsive.png">            
             </noscript>
           </a>
@@ -453,7 +455,7 @@ adapting to all different devices without using cheap tricks like <code>http://m
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="services" class="info">
     <h3><a title="Permalink to Cloud Hosting" href="/cloud-hosting">
       Cloud Hosting
     </a></h3>
@@ -480,7 +482,7 @@ adapting to all different devices without using cheap tricks like <code>http://m
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="services" class="info">
     <h3><a title="Permalink to SEO and E-commerce" href="/seo-and-ecommerce">
       SEO and E-commerce
     </a></h3>
@@ -492,8 +494,17 @@ adapting to all different devices without using cheap tricks like <code>http://m
         <div id="image">
           <a title="Visit Shopify online stores at http://shopify.com" href="http://shopify.com">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-shopify.png" data-fullsrc="/assets/shopify.png" data-alttext="Shopify online stores" class="responsivize">
+            <noscript original-class="services" data-mobilesrc="/assets/small-shopify.png" data-fullsrc="/assets/shopify.png" data-alttext="Shopify online stores" class="responsivize">
               <img src="/assets/shopify.png">            
+            </noscript>
+          </a>
+        </div>        
+      
+        <div id="image">
+          <a title="Visit Custom E-commerce Engine powered by Wordpress at http://smuff.ro" href="http://smuff.ro">
+            <span class="img-placeholder"></span>
+            <noscript original-class="services" data-mobilesrc="/assets/small-wordpress.png" data-fullsrc="/assets/wordpress.png" data-alttext="Custom E-commerce Engine powered by Wordpress" class="responsivize">
+              <img src="/assets/wordpress.png">            
             </noscript>
           </a>
         </div>        
@@ -525,7 +536,7 @@ adapting to all different devices without using cheap tricks like <code>http://m
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="services" class="info">
     <h3><a title="Permalink to Html 5" href="/html-5">
       Html 5
     </a></h3>
@@ -553,7 +564,7 @@ All sites created by Ungainly use HTML5. You can check if your current site supp
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="sale" class="info">
     <h3><a title="Permalink to Scrol Themes For Shopify" href="/scrol-themes-for-shopify">
       Scrol Themes For Shopify
     </a></h3>
@@ -565,8 +576,26 @@ All sites created by Ungainly use HTML5. You can check if your current site supp
         <div id="image">
           <a title="Visit Scrol Theme for Shopify at http://scrol.myshopify.com" href="http://scrol.myshopify.com">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-scrol.png" data-fullsrc="/assets/scrol.png" data-alttext="Scrol Theme for Shopify" class="responsivize">
+            <noscript original-class="sale" data-mobilesrc="/assets/small-scrol.png" data-fullsrc="/assets/scrol.png" data-alttext="Scrol Theme for Shopify" class="responsivize">
               <img src="/assets/scrol.png">            
+            </noscript>
+          </a>
+        </div>        
+      
+        <div id="image">
+          <a title="Visit Scrol (Sand Francisco) Theme for Shopify at http://scrol-sf.myshopify.com" href="http://scrol-sf.myshopify.com">
+            <span class="img-placeholder"></span>
+            <noscript original-class="sale" data-mobilesrc="/assets/small-scrol-sf.png" data-fullsrc="/assets/scrol-sf.png" data-alttext="Scrol (Sand Francisco) Theme for Shopify" class="responsivize">
+              <img src="/assets/scrol-sf.png">            
+            </noscript>
+          </a>
+        </div>        
+      
+        <div id="image">
+          <a title="Visit Scrol (Madrid) Theme for Shopify at http://scrol-madrid.myshopify.com" href="http://scrol-madrid.myshopify.com">
+            <span class="img-placeholder"></span>
+            <noscript original-class="sale" data-mobilesrc="/assets/small-scrol-madrid.png" data-fullsrc="/assets/scrol-madrid.png" data-alttext="Scrol (Madrid) Theme for Shopify" class="responsivize">
+              <img src="/assets/scrol-madrid.png">            
             </noscript>
           </a>
         </div>        
@@ -596,7 +625,7 @@ If you aim for exclusivity you must buy them all.
 
   
   <article id="item" class="block ">
-  <header class="info">
+  <header id="portfolio" class="info">
     <h3><a title="Permalink to Clair" href="/clair">
       Clair
     </a></h3>
@@ -608,7 +637,7 @@ If you aim for exclusivity you must buy them all.
         <div id="image">
           <a title="Visit Clair at /clair" href="/clair">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-clair.png" data-fullsrc="/assets/clair.png" data-alttext="Clair" class="responsivize">
+            <noscript original-class="portfolio" data-mobilesrc="/assets/small-clair.png" data-fullsrc="/assets/clair.png" data-alttext="Clair" class="responsivize">
               <img src="/assets/clair.png">            
             </noscript>
           </a>
@@ -637,10 +666,10 @@ If you aim for exclusivity you must buy them all.
       
   <nav id="collections" class="block">
   <h3 class="hidden">Category menu</h3>
-  <h2><a href="/services" class="services">Web services</a></h2>
-  <h2><a href="/portfolio" class="portfolio">Web design portfolio</a></h2>
-  <h2><a href="/sale" class="sale">On Sale</a></h2>
-  <h2><a href="/feedback" class="feedback">Feedback</a></h2>
+    <h3 class="drop-shadow lifted rotated"><a href="/services" class="services">Web services</a></h3>
+    <h3 class="drop-shadow lifted rotated"><a href="/portfolio" class="portfolio">Web design portfolio</a></h3>
+    <h3 class="drop-shadow lifted rotated"><a href="/sale" class="sale">On Sale</a></h3>
+    <h3 class="drop-shadow lifted rotated"><a href="/feedback" class="feedback">Feedback</a></h3>
 </nav>
 
 <nav id="pages" class="content block">

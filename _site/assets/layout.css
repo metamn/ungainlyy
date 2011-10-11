@@ -21,10 +21,9 @@ img {
 
 body { font-size:100%; line-height:1.25; }
 h1, h2, h3 { margin-top:0; margin-bottom:0; }
-#info h2 {
-  font-variant: small-caps;
-}
-#info h2, #info h3 { padding: .312em;}
+#info h3 {padding: .312em; }
+#info #collections h3 {font-variant: small-caps;}
+
 
 h1 {
   font-family: 'Lobster', arial, serif;
@@ -61,7 +60,7 @@ body {
   margin-right: 5%;
 }
 #info #collections a {
-  padding: .1em .1em 0;
+  padding-left: .1em;
 }
 
 

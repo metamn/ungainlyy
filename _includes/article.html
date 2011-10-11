@@ -1,5 +1,5 @@
 <article id="item" class="block {{ klass }}">
-  <header class="info">
+  <header id="{{ post.categories.first }}" class="info">
     <h3><a title="Permalink to {{ post.title }}" href="{{ post.url ]}}">
       {% if post.categories.first == 'feedback' %}<span class="quote">"{% endif %}{{ post.title }}{% if post.categories.first == 'feedback' %}"</span>{% endif %}
     </a></h3>
@@ -7,11 +7,11 @@
   
   {% if post.images %}
     <div id="images">
-      {% for image in post.images limit: {{limit}} %}
+      {% for image in post.images limit: {{ limit }} %}
         <div id="image">
           <a title="Visit {{ image.title }} at {{ image.url }}" href="{{ image.url }}">
             <span class="img-placeholder"></span>
-            <noscript data-mobilesrc="/assets/small-{{ image.src }}" data-fullsrc="/assets/{{ image.src }}" data-alttext="{{ image.title }}" class="responsivize">
+            <noscript original-class="{{ post.categories.first }}" data-mobilesrc="/assets/small-{{ image.src }}" data-fullsrc="/assets/{{ image.src }}" data-alttext="{{ image.title }}" class="responsivize">
               <img src="/assets/{{ image.src }}">            
             </noscript>
           </a>

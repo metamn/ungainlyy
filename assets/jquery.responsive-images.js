@@ -35,6 +35,10 @@ var responsiveImageTag = {
 			  }
 
 			  img.className = "responsive";
+			  if (noScriptElem.attr("original-class") == "portfolio") {
+			    img.className += " portfolio";
+			  }
+			  
 			  noScriptElem.prev().append(img);	
 			  noScriptElem.hide();
 		  }
