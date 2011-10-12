@@ -40,6 +40,10 @@ body {
   margin: .625em 0;
 }
 
+.drop-shadow {
+  width: auto;
+}
+
 
 /* Content
 */

@@ -25,28 +25,28 @@ a, a:visited, .link {
 }
 
 
-.services, .rotated .services:before {
+.rotated .services:before {
   background: #8DC7B8;
 }
 a.services {
   text-shadow: 1px 1px #afd8cd;
 }
 
-.portfolio,.rotated .portfolio:before {
+.rotated .portfolio:before {
   background: #A7BD5B;
 }
 a.portfolio {
   text-shadow: 1px 1px #bacc7f;
 }
 
-.sale, .rotated .sale:before {
+.rotated .sale:before {
   background: #DC574E;
 }
 a.sale {
   text-shadow: 1px 1px #e47f79;
 }
 
-.feedback, .rotated .feedback:before {
+.rotated .feedback:before {
   background: #ED9355;
 }
 a.feedback {
