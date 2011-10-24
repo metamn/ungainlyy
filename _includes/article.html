@@ -1,5 +1,5 @@
 <article id="item" class="block {{ klass }}">
-  <header id="{{ post.categories.first }}" class="info">
+  <header id="{{ post.categories.first }}" class="info animated pulse">
     <h3><a title="Permalink to {{ post.title }}" href="{{ post.url ]}}">
       {% if post.categories.first == 'feedback' %}<span class="quote">"{% endif %}{{ post.title }}{% if post.categories.first == 'feedback' %}"</span>{% endif %}
     </a></h3>
