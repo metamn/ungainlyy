@@ -76,6 +76,18 @@ a.feedback {
 
 
 
+#pages li:first-letter {
+  background: #2a2a2a;
+  color: #4c4c4c;  
+  padding: 0 .156em 0 .312em;
+}
+#pages li {  
+  background: #4c4c4c;
+  color: #2a2a2a;
+  font-style: italic;
+}
+
+
 /* Header
 */
 

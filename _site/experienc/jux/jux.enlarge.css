@@ -12,47 +12,44 @@
 }
 
 
-/* Animating images on frontpage
+
+/* Animating images
 */
 
-
+.quarkWrap.image {
+  opacity: .3;
+}
 .image {
   z-index: 0;
   position: relative;
 }
-img.image {
+img.image:hover {
   z-index: 10000;
+  opacity: 1 !important;
   
   -moz-animation-name: pulse;
   -webkit-animation-name: pulse;
   -ms-animation-name: pulse;
   animation-name: pulse;
-}
-
-
-
-
-/* Common animation settings
-*/
-
-img.image {  
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: .4s;
+  
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .2s;
   -webkit-animation-timing-function: ease;
   -webkit-animation-fill-mode: both;
-  -moz-animation-duration: 3s;
-  -moz-animation-delay: .4s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: .2s;
   -moz-animation-timing-function: ease;
   -moz-animation-fill-mode: both;
-  -ms-animation-duration: 3s;
-  -ms-animation-delay: .4s;
+  -ms-animation-duration: 1s;
+  -ms-animation-delay: .2s;
   -ms-animation-timing-function: ease;
   -ms-animation-fill-mode: both;
-  animation-duration: 3s;
-  animation-delay: .4s;
+  animation-duration: 1s;
+  animation-delay: .2s;
   animation-timing-function: ease;
   animation-fill-mode: both;
 }
+
 
 
 
@@ -93,27 +90,27 @@ body { -webkit-transform: translateZ(0); } /* iOS optimization */
 
 @-webkit-keyframes pulse {
     0% { -webkit-transform: scale(1); }	
-	50% { -webkit-transform: scale(1.5); }
+	50% { -webkit-transform: scale(1.1); }
     100% { -webkit-transform: scale(1); }
 }
 @-moz-keyframes pulse {
     0% { -moz-transform: scale(1); }	
-	50% { -moz-transform: scale(1.5); }
+	50% { -moz-transform: scale(1.1); }
     100% { -moz-transform: scale(1); }
 }
 @-ms-keyframes pulse {
     0% { -ms-transform: scale(1); }	
-	50% { -ms-transform: scale(1.5); }
+	50% { -ms-transform: scale(1.1); }
     100% { -ms-transform: scale(1); }
 }
 @-o-keyframes pulse {
     0% { -o-transform: scale(1); }	
-	50% { -o-transform: scale(1.5); }
+	50% { -o-transform: scale(1.1); }
     100% { -o-transform: scale(1); }
 }
 @keyframes pulse {
     0% { transform: scale(1); }	
-	50% { transform: scale(1.5); }
+	50% { transform: scale(1.1); }
     100% { transform: scale(1); }
 }
 
@@ -124,7 +121,3 @@ body { -webkit-transform: translateZ(0); } /* iOS optimization */
 	-o-animation-name: pulse;
 	animation-name: pulse;
 }
-
-
-
-
