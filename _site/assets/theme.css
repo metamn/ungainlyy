@@ -79,7 +79,7 @@ a.feedback {
 #pages li:first-letter {
   background: #2a2a2a;
   color: #909090;  
-  padding: 0 .156em 0 .312em;
+  padding: 0 .156em;
 }
 #pages li {  
   background: #4c4c4c;
@@ -112,23 +112,6 @@ a.feedback {
   background: #D6D19C !important;
   opacity: .9;
 }
-
-#item #just-text blockquote {
-  -webkit-animation: 1s ease;
-	-moz-animation: 1s ease;
-	-ms-animation: 1s ease;
-	-o-animation: 1s ease;
-	animation: 1s ease;
-	cursor: crosshair;
-}
-#item #just-text blockquote:hover {
-  -webkit-animation-name: pulse;
-	-moz-animation-name: pulse;
-	-ms-animation-name: pulse;
-	-o-animation-name: pulse;
-	animation-name: pulse;
-}
-
 
 #item #portfolio {
   box-shadow: 1px 1px #d1cb90,
