@@ -1,0 +1,197 @@
+/* Colors
+
+- The Kiss, from kuler && the compound of the Bordo
+  - services: 6C9380
+  - portfolio: C0CA55 
+  - sale: F07C6C
+  - feedback: AD5472
+  - text shadows are +3 from 0to255
+
+- compound of bordo from Kiss
+  - triangle: 47403F (black)
+  - background: 9AB787 (green)
+  - title: E07156 (orange)
+
+
+
+*/
+
+
+body {
+  background: url(stripe2.png) #9AB787; 
+  color: #000;
+}
+
+#divider .triangle-top {
+  border-color: transparent transparent #47403F;
+}
+
+
+
+/* Header
+*/
+
+#logo h1 {
+  text-shadow: .04em .04em #92B787,
+               .06em .06em #5d8751;
+}
+
+#info #menu {
+  background: #92B787;
+  opacity: .85;
+}
+
+#pages li:first-letter {
+  background: #2a2a2a;
+  color: #909090;  
+  padding: 0 .156em;
+}
+#pages li {  
+  background: #4c4c4c;
+  color: #909090;
+  font-style: italic;
+  border-bottom: 1px solid;
+}
+
+
+
+/* Portfolio
+*/
+
+body.portfolio {
+  background: #A39B87 !important;
+}
+.portfolio #background-image {
+  -moz-box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;  
+}
+.portfolio #logo {
+  background: #A39B87;
+  opacity: .85;
+}
+
+.portfolio nav {
+  opacity: .1;
+}
+
+
+
+/* Links and colors
+*/
+
+a, a:visited, .link {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+#menu a, #menu a:visited, #pages a, #pages a:visited, #collections a, #collections a:visited {
+  text-decoration: none;
+}
+#menu a.home, #menu a:active, #menu a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Backgrounds
+*/
+
+.services-triangle {
+  border-color: transparent transparent #6C9380 !important;
+}
+.rotated .services:before {
+  background: #6C9380;
+}
+a.services {
+  text-shadow: 1px 1px #89a999; /* +3 */
+}
+
+.portfolio-triangle {
+  border-color: transparent transparent #C0CA55 !important;
+}
+.rotated .portfolio:before {
+  background: #C0CA55;
+}
+a.portfolio {
+  text-shadow: 1px 1px #ced67c;
+}
+
+.sale-triangle {
+  border-color: transparent transparent #F07C6C !important;
+}
+.rotated .sale:before {
+  background: #F07C6C;
+}
+a.sale {
+  text-shadow: 1px 1px #f5a59a;
+}
+
+.feedback-triangle {
+  border-color: transparent transparent #AD5472 !important;
+}
+.rotated .feedback:before {
+  background: #AD5472;
+}
+a.feedback {
+  text-shadow: 1px 1px #be768e;
+}
+
+
+
+
+/* Content
+*/
+
+#content #just-text,
+#item #images + div.content {
+  color: #aea5a4;
+}
+ 
+
+#content .single #just-text, 
+#content .collection #just-text {
+  color: #000;
+}
+
+#item .info, .highlight {
+  background: #E07156 !important;
+  opacity: .9;
+}
+
+#item #portfolio {
+  box-shadow: 1px 1px #d1cb90,
+              2px 2px #A6E056;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #A6E056 #c7c078 #c7c078 #A6E056;
+}
+
+#item #image img.portfolio {
+  box-shadow: inset 1px 1px #f9f9f9;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd #f9f9f9 #f9f9f9 #ddd;
+}
+
+th {
+  border-bottom: 1px solid #ccc;
+}
+td {
+  border-bottom: 1px dotted #ccc;
+}
+
+
+blockquote {
+  background: #92B787;
+  color: #000;
+}
+
+
+
+
+
+
+
+
