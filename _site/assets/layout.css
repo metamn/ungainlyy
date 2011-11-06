@@ -24,10 +24,13 @@ h1, h2, h3 { margin-top:0; margin-bottom:0; }
 
 
 h1 {
-  font-family: 'Lobster', arial, serif;
+  font-family: 'Amatic SC', cursive;  
 }
 body {
-  font-family: 'Old Standard TT', arial, serif;
+  font-family: 'Lekton', sans-serif;
+}
+#collections, #item .info {
+  font-family: 'Contrail One', cursive;
 }
 .stars {
   font-size: larger;
@@ -110,9 +113,7 @@ td, th {
   padding: .612em 1.25em 1.25em .612em;
   vertical-align: top;
 }
-td.first {
-  font-variant: small-caps;
-}
+
 
 
 
