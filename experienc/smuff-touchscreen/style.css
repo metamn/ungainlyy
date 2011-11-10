@@ -2,55 +2,70 @@ body {
   font-size: 100%;
   line-height: 1.25em;
   
-  background: url("stripe.png") transparent;
+  background: url("background.jpg") transparent;
   color: #333;
-}
-
-h1 {
-  font-family: 'Aldrich', cursive;
-  font-size: 5em;
-  text-align: right;
-  margin: .7em 1.1em 0 0;
-  padding-top: .3em;
-}
-
-p {
+  
   font-family: 'Contrail One', cursive;
-  font-size: 2em;
   
-  position: relative;
-  left: 31%;
-  top: -3.5em;
-  
-  background: #825ABA;
-  color: white;
-  padding: .5em;
-  z-index: -1;
+  padding: 2em;
 }
 
 
 #image {
-  margin: 2.5em;
-  padding: 1.25em;
-  border: 1px solid yellow;
-  width: 75%;
+  margin-left: 25%;
+  width: 71%;
+  background: #9E515C;
 }
+#image div {
+  float: left;
+  width: 30%;
+  
+  margin-right: 3%;
+  text-align: center;
+  
+  height: 24em;  
+  border-radius: 13em;
+}
+img {
+  opacity: .7;
+  margin-top: 15em;
+}
+
+#a {
+  background: #8DD156;
+}
+#b {
+  background: #D17556;
+}
+#c {
+  background: #9E515B;
+}
+
+
+
 
 #text {
-  padding-bottom: 1.25em;
-  background: #A5F0B7;
+  width: 30%;
+  word-wrap: break-word;
+  line-height: 1;
 }
-
-#a, #b {
-  padding-right: 2em;
+h1 {
+  font-size: 8em;
+  width: 3em;
+  
+  position: relative;
+  
+  color: #EA7889;
+  background: #AE8E92;
+  
+  
+  text-shadow: 1px 1px 1px #613238;
 }
-
-#b, #c {
-  padding-left: 2em;
-}
-
-img {
-  box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.698), 0 1px rgba(0, 0, 0, 0.1), 0 0 4px rgba(0, 0, 0, 0.1) inset;
-  padding: .5em;
-  margin: 0 1em 2.5em;
+h2 {
+  font-size: 2.5em;
+  width: 6em;
+  
+  position: relative;
+  top: -10em;
+  left: .2em;
 }
