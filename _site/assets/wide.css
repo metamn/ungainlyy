@@ -12,7 +12,7 @@
 */
 
 /* H1 Fibonacci, H2,H3 Corbusier */ 
-h1 { font-size:4.23077em; padding:1.29532em 0; }
+h1 { font-size:7.23077em; padding:.5em 0; }
 h2 { font-size:2.61538em; padding:1.28666em 0; }
 h3 { font-size:2.11538em; padding:1.44305em 0; }
 
@@ -35,7 +35,7 @@ h3 { font-size:2.11538em; padding:1.44305em 0; }
 
 #content, #message {
   position: relative;
-  top: 10em;
+  top: 13em;
   right: 1%;  
   width: 50%;
   z-index: 1;  
@@ -47,6 +47,8 @@ h3 { font-size:2.11538em; padding:1.44305em 0; }
   position: relative;
   z-index: 2;
 }
+
+
 
 /* Portfolio
 */

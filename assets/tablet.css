@@ -6,7 +6,7 @@
 
 /* Typography
 */
-h1 { font-size:3.42308em; padding:1.38338em 0; }
+h1 { font-size:5.42308em; padding:.5em 0; }
 h2 { font-size:1.61538em; padding:1.30936em 0; }
 h3 { font-size:1.30769em; padding:1.28686em 0; }
 
@@ -29,7 +29,7 @@ h3 { font-size:1.30769em; padding:1.28686em 0; }
 
 #content, #message {
   position: relative;
-  top: 7em;
+  top: 9em;
   right: 1%;  
   width: 50%;
   z-index: 1;  

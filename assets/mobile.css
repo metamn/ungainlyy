@@ -59,6 +59,13 @@ body {
 #item .info h3 a {
   text-decoration: none;
 }
+
+
+#item #portfolio + div + div {
+  display: none;
+}
+
+
 #content #just-text {
   margin-left: 1%;
   font-size: 100%;

@@ -1,0 +1,71 @@
+body {
+  font-size: 100%;
+  line-height: 1.25em;
+  
+  background: url("background.jpg") transparent;
+  color: #333;
+  
+  font-family: 'Contrail One', cursive;
+  
+  padding: 2em;
+}
+
+
+#image {
+  margin-left: 25%;
+  width: 71%;
+  background: #9E515C;
+}
+#image div {
+  float: left;
+  width: 30%;
+  
+  margin-right: 3%;
+  text-align: center;
+  
+  height: 24em;  
+  border-radius: 13em;
+}
+img {
+  opacity: .7;
+  margin-top: 15em;
+}
+
+#a {
+  background: #8DD156;
+}
+#b {
+  background: #D17556;
+}
+#c {
+  background: #9E515B;
+}
+
+
+
+
+#text {
+  width: 30%;
+  word-wrap: break-word;
+  line-height: 1;
+}
+h1 {
+  font-size: 8em;
+  width: 3em;
+  
+  position: relative;
+  
+  color: #EA7889;
+  background: #AE8E92;
+  
+  
+  text-shadow: 1px 1px 1px #613238;
+}
+h2 {
+  font-size: 2.5em;
+  width: 6em;
+  
+  position: relative;
+  top: -10em;
+  left: .2em;
+}
