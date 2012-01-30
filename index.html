@@ -4,6 +4,8 @@ layout: default
 
 <header class="hidden"><h6>The Index page</h6></header>
 {% for post in site.posts %}
-  {% assign limit = 1 %}
-  {% include article.html %}
+  {% unless post.categories.first == 'feedback' or post.to_frontpage == false %} 
+    {% assign limit = 1 %}
+    {% include article.html %}
+  {% endunless %}
 {% endfor %}
