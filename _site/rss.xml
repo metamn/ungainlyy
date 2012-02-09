@@ -8,8 +8,8 @@
     <atom:link href="ungainly.../rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 09 Feb 2012 19:23:51 EET</pubDate>
-    <lastBuildDate>Thu, 09 Feb 2012 19:23:51 EET</lastBuildDate>
+    <pubDate>Thu, 09 Feb 2012 19:30:06 EET</pubDate>
+    <lastBuildDate>Thu, 09 Feb 2012 19:30:06 EET</lastBuildDate>
 
     
     <item>
@@ -45,15 +45,6 @@
       <pubDate>Fri, 16 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/impressed-with-your-design-skills</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
-    </item>
-    
-    <item>
-      <title>Smuff Flyer</title>
-      <link>http://ungainlyy.com/smuff-flyer</link>
-      <pubDate>Thu, 15 Sep 2011 00:00:00 EEST</pubDate>
-      <author>ungainly...</author>
-      <guid>http://ungainlyy.com/smuff-flyer</guid>
       <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
     </item>
     
