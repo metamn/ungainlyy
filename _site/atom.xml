@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en"> - ungainly...</title>
 	<link type="application/atom+xml" href="http://ungainlyy.com/feed/" rel="self"/>
  	<link type="text" href="http://ungainlyy.com" rel="alternate"/>
-	<updated>2012-02-09T19:46:23+02:00</updated>
+	<updated>2012-08-10T07:01:26+03:00</updated>
 	<id>http://ungainlyy.com</id>
 	<author>
 		<name>ungainly...</name>
@@ -13,11 +13,19 @@
 	
 	
 	<entry>
+		<title>Inu Chivu</title>
+		<link href="http://ungainlyy.com/inu-chivu"/>
+		<updated>2012-06-13T00:00:00+03:00</updated>
+		<id>http://http://ungainlyy.com/inu-chivu</id>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
+	</entry>
+	
+	<entry>
 		<title>Ceu</title>
 		<link href="http://ungainlyy.com/ceu"/>
 		<updated>2012-02-09T00:00:00+02:00</updated>
 		<id>http://http://ungainlyy.com/ceu</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -25,7 +33,7 @@
 		<link href="http://ungainlyy.com/scrol"/>
 		<updated>2011-09-17T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/scrol</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -33,7 +41,7 @@
 		<link href="http://ungainlyy.com/bringing-us-in-top-google-search-results"/>
 		<updated>2011-09-17T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/bringing-us-in-top-google-search-results</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -41,7 +49,7 @@
 		<link href="http://ungainlyy.com/impressed-with-your-design-skills"/>
 		<updated>2011-09-16T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/impressed-with-your-design-skills</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -49,7 +57,7 @@
 		<link href="http://ungainlyy.com/smuff"/>
 		<updated>2011-09-15T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/smuff</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -57,7 +65,7 @@
 		<link href="http://ungainlyy.com/languagelab"/>
 		<updated>2011-09-15T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/languagelab</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -65,7 +73,7 @@
 		<link href="http://ungainlyy.com/design-and-development"/>
 		<updated>2011-09-15T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/design-and-development</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -73,7 +81,7 @@
 		<link href="http://ungainlyy.com/clean-feel"/>
 		<updated>2011-09-14T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/clean-feel</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -81,7 +89,7 @@
 		<link href="http://ungainlyy.com/I-like-theme-simplicity"/>
 		<updated>2011-09-14T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/I-like-theme-simplicity</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -89,7 +97,7 @@
 		<link href="http://ungainlyy.com/split-testing"/>
 		<updated>2011-09-12T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/split-testing</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -97,7 +105,7 @@
 		<link href="http://ungainlyy.com/responsive-web-design"/>
 		<updated>2011-09-12T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/responsive-web-design</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -105,7 +113,7 @@
 		<link href="http://ungainlyy.com/cloud-hosting"/>
 		<updated>2011-09-12T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/cloud-hosting</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -113,7 +121,7 @@
 		<link href="http://ungainlyy.com/seo-and-ecommerce"/>
 		<updated>2011-09-11T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/seo-and-ecommerce</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -121,7 +129,7 @@
 		<link href="http://ungainlyy.com/html-5"/>
 		<updated>2011-09-11T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/html-5</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -129,7 +137,7 @@
 		<link href="http://ungainlyy.com/scrol-themes-for-shopify"/>
 		<updated>2011-09-10T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/scrol-themes-for-shopify</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -137,7 +145,7 @@
 		<link href="http://ungainlyy.com/clair"/>
 		<updated>2011-09-09T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/clair</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 	<entry>
@@ -145,7 +153,7 @@
 		<link href="http://ungainlyy.com/brandyou"/>
 		<updated>2011-09-08T00:00:00+03:00</updated>
 		<id>http://http://ungainlyy.com/brandyou</id>
-		<content type="html">Liquid error: undefined method `gsub' for nil:NilClass</content>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
 	</entry>
 	
 </feed>

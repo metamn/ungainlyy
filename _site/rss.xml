@@ -8,9 +8,18 @@
     <atom:link href="ungainly.../rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 09 Feb 2012 19:46:23 EET</pubDate>
-    <lastBuildDate>Thu, 09 Feb 2012 19:46:23 EET</lastBuildDate>
+    <pubDate>Fri, 10 Aug 2012 07:01:26 EEST</pubDate>
+    <lastBuildDate>Fri, 10 Aug 2012 07:01:26 EEST</lastBuildDate>
 
+    
+    <item>
+      <title>Inu Chivu</title>
+      <link>http://ungainlyy.com/inu-chivu</link>
+      <pubDate>Wed, 13 Jun 2012 00:00:00 EEST</pubDate>
+      <author>ungainly...</author>
+      <guid>http://ungainlyy.com/inu-chivu</guid>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
+    </item>
     
     <item>
       <title>Ceu</title>
@@ -18,7 +27,7 @@
       <pubDate>Thu, 09 Feb 2012 00:00:00 EET</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/ceu</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -27,7 +36,7 @@
       <pubDate>Sat, 17 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/scrol</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -36,7 +45,7 @@
       <pubDate>Sat, 17 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/bringing-us-in-top-google-search-results</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -45,7 +54,7 @@
       <pubDate>Fri, 16 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/impressed-with-your-design-skills</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -54,7 +63,7 @@
       <pubDate>Thu, 15 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/smuff</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -63,7 +72,7 @@
       <pubDate>Thu, 15 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/languagelab</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -72,7 +81,7 @@
       <pubDate>Thu, 15 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/design-and-development</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -81,7 +90,7 @@
       <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/clean-feel</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -90,7 +99,7 @@
       <pubDate>Wed, 14 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/I-like-theme-simplicity</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -99,7 +108,7 @@
       <pubDate>Mon, 12 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/split-testing</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -108,7 +117,7 @@
       <pubDate>Mon, 12 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/responsive-web-design</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -117,7 +126,7 @@
       <pubDate>Mon, 12 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/cloud-hosting</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -126,7 +135,7 @@
       <pubDate>Sun, 11 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/seo-and-ecommerce</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -135,7 +144,7 @@
       <pubDate>Sun, 11 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/html-5</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -144,7 +153,7 @@
       <pubDate>Sat, 10 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/scrol-themes-for-shopify</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -153,7 +162,7 @@
       <pubDate>Fri, 09 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/clair</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
     <item>
@@ -162,7 +171,7 @@
       <pubDate>Thu, 08 Sep 2011 00:00:00 EEST</pubDate>
       <author>ungainly...</author>
       <guid>http://ungainlyy.com/brandyou</guid>
-      <description>Liquid error: undefined method `gsub' for nil:NilClass</description>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
     </item>
     
   </channel> 
